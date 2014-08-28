@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE record SYSTEM "dcr4.5.dtd">
+<record name="dcr_deck_OA_11_1596.xml" type="content">
+    
+    <item name="intro_copy">
+        <value>&lt;a href="/findacruise/ports/printAccessibilityInformation.do?pagename=accessible_features_OA" onclick="jsBasic_popup_resizable('/findacruise/ports/printAccessibilityInformation.do?pagename=accessible_features_OA', 850, 600, true); return false"&gt;&lt;u&gt;View Accessible Public Areas&lt;/u&gt;&lt;/a&gt;&lt;br /&gt;&lt;a href="/findacruise/ports/accessibilityFeatures.do?pagename=accessible_staterooms_popup_OA" onclick="jsBasic_popup_resizable('/findacruise/ports/accessibilityFeatures.do?pagename=accessible_staterooms_popup_OA', 850, 600, true); return false"&gt;&lt;u&gt;View Accessible Stateroom&lt;/u&gt;&lt;/a&gt;</value>
+    </item>
+    <item name="image">
+        <value>/content/shared_assets/images/fleet/decks/main/oa/2013-sep/oa_deck11_v2013_sep.gif</value>
+    </item>
+    <item name="image_alt_text">
+        <value>Deck Eleven</value>
+    </item>
+    <item name="cutaway_image">
+        <value>/content/shared_assets/images/fleet/decks/cutaway/oa/shp_oa_deck11cutaway_dpl_on.gif</value>
+    </item>
+    <item name="cutaway_alt_text">
+        <value>Deck Eleven</value>
+    </item>
+    <item name="deck_pdf">
+        <value>/content/shared_assets/pdf/decks/OA/2013-sep/oa_deck11_v2013_sep.pdf</value>
+    </item>
+    <item name="torpedo">
+        <value>
+            <item name="deck_fore_port">
+                <value>/content/shared_assets/images/fleet/decks/sections/oa/2013-sep/oa_deck11_v2013_sep_top_l.gif</value>
+            </item>
+<item name="deck_fore_starboard">
+                <value>/content/shared_assets/images/fleet/decks/sections/oa/2013-sep/oa_deck11_v2013_sep_top_r.gif</value>
+            </item>
+<item name="deck_midsection_port">
+                <value>/content/shared_assets/images/fleet/decks/sections/oa/2013-sep/oa_deck11_v2013_sep_mid_l.gif</value>
+            </item>
+<item name="deck_midsection_starboard">
+                <value>/content/shared_assets/images/fleet/decks/sections/oa/2013-sep/oa_deck11_v2013_sep_mid_r.gif</value>
+            </item>
+<item name="deck_aft_port">
+                <value>/content/shared_assets/images/fleet/decks/sections/oa/2013-sep/oa_deck11_v2013_sep_bot_l.gif</value>
+            </item>
+<item name="deck_aft_starboard">
+                <value>/content/shared_assets/images/fleet/decks/sections/oa/2013-sep/oa_deck11_v2013_sep_bot_r.gif</value>
+            </item>
+</value>
+    </item>
+    <item name="public_spaces">
+        <value>
+            <item name="subhead_copy">
+                <value>Library</value>
+            </item>
+<item name="paragraph_copy">
+                <value>Our onboard library features comfortable reading chairs as well as an impressive selection of books and guidebooks.</value>
+            </item>
+<item name="rep_count">
+                <value>1</value>
+            </item>
+</value>
+        <value>
+            <item name="subhead_copy">
+                <value>Concierge Club</value>
+            </item>
+<item name="paragraph_copy">
+                <value>Guests staying in Grand Suite-level rooms and higher, Diamond Plus and Pinnacle Club Crown &amp; Anchor&lt;sup&gt;&lt;font size="-3"&gt;®&lt;/font&gt;&lt;/sup&gt; Society members enjoy access to this lounge serving complimentary continental breakfast and evening drinks.</value>
+            </item>
+<item name="rep_count">
+                <value>2</value>
+            </item>
+</value>
+        <value>
+            <item name="subhead_copy">
+                <value>GETTING AROUND ONBOARD</value>
+            </item>
+<item name="paragraph_copy">
+                <value>Our Way Finding system uses four simple colors to help you locate every destination and stateroom onboard Oasis of the Seas. Each color represents a quadrant of the ship - front port, front starboard, back port or back starboard - so you'll always know where you are and where you want to go.</value>
+            </item>
+<item name="rep_count">
+                <value>3</value>
+            </item>
+</value>
+    </item>
+    <item name="friendly_text">
+        <value/>
+    </item>
+    <item name="breadcrumb">
+        <value>
+            <item name="breadcrumb_text">
+                <value>Plan a Cruise</value>
+            </item>
+<item name="breadcrumb_url">
+                <value>/findacruise/home.do</value>
+            </item>
+<item name="rep_count">
+                <value>1</value>
+            </item>
+</value>
+        <value>
+            <item name="breadcrumb_text">
+                <value>Ships</value>
+            </item>
+<item name="breadcrumb_url">
+                <value>/findacruise/ships/home.do</value>
+            </item>
+<item name="rep_count">
+                <value>2</value>
+            </item>
+</value>
+        <value>
+            <item name="breadcrumb_text">
+                <value>Oasis of the Seas</value>
+            </item>
+<item name="breadcrumb_url">
+                <value>/findacruise/ships/class/ship/home.do?shipCode=OA</value>
+            </item>
+<item name="rep_count">
+                <value>3</value>
+            </item>
+</value>
+        <value>
+            <item name="breadcrumb_text">
+                <value>Deck Plans</value>
+            </item>
+<item name="breadcrumb_url">
+                <value/>
+            </item>
+<item name="rep_count">
+                <value>4</value>
+            </item>
+        </value>    
+        </item>    
+</record>
