@@ -4,7 +4,7 @@
 #use XML::XPath::XMLParser;
 use File::Find;
 #use XML::Parser;
-use XML::DOM;
+#use XML::DOM;
 
 my $dir = "//MRMTSPROD01/default/main/royal/WORKAREA/emd/templatedata/fleet/deck/data/en_US";
 my @files = ();
@@ -78,7 +78,8 @@ for (my $i=0;$i<$len;$i++)
 #sub mySub()
 #{
 #push @files, $File::Find::name if(/\.xml$/i); # modify the regex as per your needs or pass it as another arg
-#}
+#
+}
 
 
  
