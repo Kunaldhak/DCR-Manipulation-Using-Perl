@@ -1,5 +1,5 @@
 #!F:\iw-home\teamsite/iw-perl/bin/iwperl
-use TeamSite::Config;
+#use TeamSite::Config;
 use XML::XPath;
 use XML::XPath::XMLParser;
 use File::Find;
