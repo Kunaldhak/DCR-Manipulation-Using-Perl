@@ -1,0 +1,32 @@
+<CIM>
+<DECLARATION>
+		<DECLGROUP>
+			<LOCALNAMESPACEPATH>
+				<NAMESPACE NAME="signalingsystem" />
+			</LOCALNAMESPACEPATH>
+
+			<VALUE.OBJECT>
+				<INSTANCE CLASSNAME="SharedGtTranslator">
+					<PROPERTY NAME="Name" TYPE="string">
+						<VALUE>AUC$4,1,6,4,26202*-->AUC RemoteSPC: 300 SSN: 10</VALUE>
+					</PROPERTY>
+					<PROPERTY NAME="NatureOfAddress" TYPE="sint32">
+						<VALUE>4</VALUE>
+					</PROPERTY>
+				</INSTANCE>
+			</VALUE.OBJECT>
+
+			<VALUE.OBJECT>
+				<INSTANCE CLASSNAME="SharedGtTranslator">
+					<PROPERTY NAME="Name" TYPE="string">
+						<VALUE>AUC$4,2,6,4,26202*-->AUC AUC LocalSPC: 410 SSN: 10</VALUE>
+					</PROPERTY>
+					<PROPERTY NAME="NatureOfAddress" TYPE="sint32">
+						<VALUE>4</VALUE>
+					</PROPERTY>
+					<VALUE>2</VALUE>
+				</INSTANCE>
+			</VALUE.OBJECT>
+		</DECLGROUP>
+	</DECLARATION>
+</CIM>
