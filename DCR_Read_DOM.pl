@@ -10,7 +10,7 @@ use File::Basename;
 #######################################
 my $output_CSV="D:\\chinese.csv";     
 my @languages=('en_US','it_IT','zh_CN_cor');      ## Global Variables...
-my $dcr_path = "D:\\Test_DCR\\zh_CN_cor"; 
+my $dcr_path = "D:\\Test_DCR\\zh_CN_cor";         #base directory
 my @files_dcr;
 my ($display_name);       
 #######################################
@@ -44,7 +44,7 @@ sub get_value{
 sub loadFiles()
 {
 	print "$dcr_path";
-  find(\&mySub,"$dcr_path"); #custom subroutine find, parse $dir
+  find(\&mySub,"$dcr_path"); 
 }
 sub mySub()
 {
