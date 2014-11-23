@@ -14,18 +14,14 @@ my @content=('display_name');
 my $dcr_path = "D:\\Test_DCR\\zh_CN_cor"; 
 my @files_dcr;       
 #######################################
+sub loadFiles(); 
+sub mySub(); 
+my @files = ();
+loadFiles(); #call
 
-finddepth(\&load_dcr, $dcr_path);
+open (FILETAR,'>>:encoding(utf8)', $output_CSV) or die "Could not open File : $!\n";
 
-sub load_dcr 
-{	
-	-f && push(@files_dcr, $File::Find::name);
-	
-}
-
-open (FILETAR,'>>', $output_CSV) or die "Could not open File : $!\n";
-
-foreach my $targetFile (@files_dcr)
+foreach my $targetFile (@files)
 {
 	print "\n".$targetFile;
 	chomp($targetFile);
@@ -46,7 +42,15 @@ sub get_value{
 	{$display_name = $xmlrepoNode->getValue;}
 	return $display_name;
 }
-
+sub loadFiles()
+{
+	print "$dcr_path";
+  find(\&mySub,"$dcr_path"); #custom subroutine find, parse $dir
+}
+sub mySub()
+{
+push @files, $File::Find::name if(/\.xml$/i); # modify the regex as per your needs or pass it as another arg
+}
 
 
 
