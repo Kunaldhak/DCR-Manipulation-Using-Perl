@@ -6,8 +6,9 @@ use File::Copy;
 use File::Find;
 use Data::Dumper;
 use Encode;
+use MIME::EncWords qw ( /decode_mimewords/);
 
-my $output_CSV="D:\\chinese.txt";
+my $output_CSV="D:\\chinese.csv";
 
 
 # my $locale ="en_US";	
@@ -32,8 +33,9 @@ foreach my $targetFile (@files_dcr)
 	my $display_name;
 	foreach my $xmlrepoNode  ($xp->find('/record/item[@name="display_name"]/value/text()')->get_nodelist)
 	{$display_name = $xmlrepoNode->getValue;}
+	my $test=decode_mimewords($display_name);
 	my $display_name1 = decode('HZ', $display_name);
-	binmode STDOUT, ': ISO-8859-1';
-	print FILETAR $targetFile.",".$display_name."\n"
+	#binmode STDOUT, ': ISO-8859-1';
+	print FILETAR $targetFile.",".$test."\n"
 	
 }
