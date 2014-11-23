@@ -10,9 +10,9 @@ use File::Basename;
 #######################################
 my $output_CSV="D:\\chinese.csv";     
 my @languages=('en_US','it_IT','zh_CN_cor');      ## Global Variables...
-my @content=('display_name'); 
 my $dcr_path = "D:\\Test_DCR\\zh_CN_cor"; 
-my @files_dcr;       
+my @files_dcr;
+my ($display_name);       
 #######################################
 sub loadFiles(); 
 sub mySub(); 
@@ -37,7 +37,6 @@ sub get_value{
 	my ($targetFile)=@_;
 	my $p = XML::Parser->new( NoLWP => 1);
 	my $xp = XML::XPath->new(parser => $p, filename => $targetFile);
-	my $display_name;
 	foreach my $xmlrepoNode  ($xp->find('/record/item[@name="display_name"]/value/text()')->get_nodelist)
 	{$display_name = $xmlrepoNode->getValue;}
 	return $display_name;
