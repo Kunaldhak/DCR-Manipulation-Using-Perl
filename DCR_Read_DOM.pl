@@ -8,11 +8,12 @@ use Data::Dumper;
 use Encode;
 use File::Basename;
 #######################################
-my $output_CSV="D:\\chinese.csv";     
-my @languages=('en_US','it_IT','zh_CN_cor');                                   ## Global Variables...
-my $dcr_path = "D:\\Test_DCR\\zh_CN_cor";         #base directory
+my $output_CSV="D:\\new1.csv";     
+my @languages=('en_US','it_IT','zh_CN_cor');      ## Global Variables...
+my $dcr_path = "D:\\Test_DCR\\en_US";         #base directory
 my @files_dcr;
-my ($display_name);       
+my ($display_name_en,$display_name_it);
+    
 #######################################
 sub loadFiles(); 
 sub mySub(); 
@@ -25,22 +26,51 @@ foreach my $targetFile (@files)
 {
 	print "\n".$targetFile;
 	chomp($targetFile);
-	my $display_name=&get_value($targetFile);
+	my ($display_name_en,$display_name_it)=&get_value_en_US($targetFile);
 	#my $display_name1 = decode('HZ', $display_name);
 	#binmode STDOUT, ': ISO-8859-1';
 	my $file_name=basename($targetFile);
-	print FILETAR $file_name.",".$display_name."\n"
+	print FILETAR $file_name.",".$display_name_en.",".$display_name_it."\n" ;
 	
 }
 
-sub get_value{
+sub get_value_en_US{
 	my ($targetFile)=@_;
 	my $p = XML::Parser->new( NoLWP => 1);
 	my $xp = XML::XPath->new(parser => $p, filename => $targetFile);
 	foreach my $xmlrepoNode  ($xp->find('/record/item[@name="display_name"]/value/text()')->get_nodelist)
-	{$display_name = $xmlrepoNode->getValue;}
-	return $display_name;
-	 #return ($1, $2, $3);    #return multiple values
+	{
+		 $display_name_en = $xmlrepoNode->getValue;
+	}
+	foreach my $xmlrepoNode  ($xp->find('/record/item[@name="cabin_type_sel"]/value/text()')->get_nodelist)
+	{
+		my $cabin_type_sel_en = $xmlrepoNode->getValue;
+		
+	}
+	$display_name_it=&get_value_it_IT($targetFile);
+	return ($display_name_en,$display_name_it);
+	
+}
+
+sub get_value_it_IT{
+	my ($targetFile)=@_;
+	my $lang_dir=dirname(dirname($targetFile))."\\".$languages[1];
+	my $lang_file=basename($targetFile);
+	my $lang_target=$lang_dir."\\".$lang_file;
+	#print "\n".$lang_target;
+	my $p = XML::Parser->new( NoLWP => 1);
+	my $xp = XML::XPath->new(parser => $p, filename => $lang_target);
+	foreach my $xmlrepoNode  ($xp->find('/record/item[@name="display_name"]/value/text()')->get_nodelist)
+	{
+		$display_name_it = $xmlrepoNode->getValue;
+	}
+	foreach my $xmlrepoNode  ($xp->find('/record/item[@name="cabin_type_sel"]/value/text()')->get_nodelist)
+	{
+	my 	$cabin_type_sel = $xmlrepoNode->getValue;
+		
+	}
+	return ($display_name_it);            #
+	
 }
 sub loadFiles()
 {
