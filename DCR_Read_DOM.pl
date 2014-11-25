@@ -9,7 +9,7 @@ use Encode;
 use File::Basename;
 #######################################
 my $output_CSV="D:\\chinese.csv";     
-my @languages=('en_US','it_IT','zh_CN_cor');      ## Global Variables...
+my @languages=('en_US','it_IT','zh_CN_cor');                                   ## Global Variables...
 my $dcr_path = "D:\\Test_DCR\\zh_CN_cor";         #base directory
 my @files_dcr;
 my ($display_name);       
@@ -40,6 +40,7 @@ sub get_value{
 	foreach my $xmlrepoNode  ($xp->find('/record/item[@name="display_name"]/value/text()')->get_nodelist)
 	{$display_name = $xmlrepoNode->getValue;}
 	return $display_name;
+	 #return ($1, $2, $3);    #return multiple values
 }
 sub loadFiles()
 {
