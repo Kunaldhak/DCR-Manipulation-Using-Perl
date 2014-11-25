@@ -69,7 +69,7 @@ sub get_value_it_IT{
 	my 	$cabin_type_sel = $xmlrepoNode->getValue;
 		
 	}
-	return ($display_name_it);            #
+	return ($display_name_it);            #not using return
 	
 }
 sub loadFiles()
