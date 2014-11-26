@@ -8,6 +8,7 @@ use Data::Dumper;
 use Encode;
 use File::Basename;
 use Text::CSV;
+use Text::CSV::Encoded;
 #######################################
 my $output_CSV="D:\\chinese.csv";     
 my @languages=('en_US','it_IT','zh_CN_cor');      ## Global Variables...
@@ -16,14 +17,19 @@ my @files_dcr;
 my ($display_name);   
 my @values=();    
 #######################################
-my $csv = Text::CSV->new ( { binary => 1, eol => "\n" } )  # should set binary attribute.
+my $csv = Text::CSV::Encoded->new ( {
+										binary => 1,  
+										#encoding_in  => "utf-8",     # the encoding comes into   Perl
+							        	#encoding_out => "utf-8",   # the encoding comes out of Perl
+							        	eol => $/    
+									} )  # should set binary attribute.
              or die "Cannot use CSV: ".Text::CSV->error_diag ();
 sub loadFiles(); 
 sub mySub(); 
 my @files = ();
 loadFiles(); #call
 
-open (my $fh,'>:encoding(utf8)', $output_CSV) or die "Could not open File : $!\n";
+open (my $fh,'>', $output_CSV) or die "Could not open File : $!\n";
 
 
 foreach my $targetFile (@files)
@@ -32,10 +38,10 @@ foreach my $targetFile (@files)
 	chomp($targetFile);
 	$display_name=&get_value($targetFile);
 	#my $display_name1 = decode('HZ', $display_name);
-	#binmode STDOUT, ': ISO-8859-1';
+	#binmode($fh, ":utf8");
 	my $file_name=basename($targetFile);
-    print FILETAR $file_name.",".$display_name."\n";
-	#$csv->print ($fh,$display_name) ;
+   # print FILETAR $file_name.",".$display_name."\n";
+	$csv->print ($fh,[$file_name,$display_name]) ;
 	
 }
 

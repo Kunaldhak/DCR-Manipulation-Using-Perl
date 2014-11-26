@@ -8,8 +8,7 @@ use Encode;
 
 #my $dir = "//MRMTSPROD01/default/main/espresso/WORKAREA/emd/templatedata/faq/contextual_help/data/".$ARGV[0];
 my @files = ();
-my $dir =
-"Y:\\default\\main\\espresso\\WORKAREA\\emd\\templatedata\\web_page\\cmo_automation\\data\\en_US";
+my $dir ="Y:\\default\\main\\espresso\\WORKAREA\\emd\\templatedata\\web_page\\cmo_automation\\data\\en_US";
 
 open LOG, ">F:\\tsadm\\Kunal\\espresso_data\\cmo_automation_headline_copy.csv";
 
