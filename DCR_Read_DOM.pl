@@ -15,7 +15,7 @@ use File::Basename;
 #######################################
 my $output_CSV="D:\\new1.csv";                    ##Output
 my @languages=('en_US','it_IT','zh_CN_cor');      ## Global Variables...
-my $dcr_path = "D:\\Test_DCR\\en_US";              #base directory
+my $dcr_path = "D:\\Test_DCR\\en_US";             ##base directory
 my @files_dcr;
 my ($display_name_en,$display_name_it,$display_name_cn);
     
