@@ -43,8 +43,12 @@ sub get_value{
 	my ($targetFile)=@_;
 	my $p = XML::Parser->new( NoLWP => 1);
 	my $xp = XML::XPath->new(parser => $p, filename => $targetFile);
-	foreach my $xmlrepoNode  ($xp->find('/record/item[@name="display_name"]/value/text()')->get_nodelist)
-	{$display_name = $xmlrepoNode->getValue;}
+	my @masternode=$xp->find('/record/item[@name="disclaimer_domestic"]/value/item[@name="disclaimer_copy"]/value/text()')->get_nodelist;
+	foreach my $xmlrepoNode (@masternode)
+	{my  $headline_copy = $xmlrepoNode->getValue;}
+	
+	
+	
 	
 	return $display_name;
 }
