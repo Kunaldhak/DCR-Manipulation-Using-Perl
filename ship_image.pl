@@ -80,9 +80,21 @@ sub set_value{
 	 	my $error_found = $@;	
 	 	print "---File error------".$targetFile ."\n";	next;
 	 }
-		my $root = $doc->getDocumentElement();
-	print $root->toString();
-	
+#my @parent = $doc->getElementsByTagName ("item")->item(0);
+my @parent = $doc->getElementsByTagName ("item");
+         foreach my $item(@parent){
+        
+         	my $node = $item->getAttributeNode('name');            #The return value of getAttributes XML::DOM::NamedNodeMap object
+  
+         		if ($node->getValue eq 'cutaway_image'){
+         			
+print $item->getElementsByTagName('value')->getValue;
+         			
+         		}
+      
+         	
+         }
+
 }
 
 
