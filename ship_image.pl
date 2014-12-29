@@ -17,7 +17,7 @@ use XML::DOM;
 
 #######################################
 #my $output_CSV="F:\\tsadm\\Kunal\\espresso_data\\cabin_type_per_ship_display_name(AT).csv";                    ##Output
-my $dcr_path = "D:\\EN-US\\Test_DCR\\ship\\en_US";              #base directory
+my $dcr_path = "D:\\Test_DCR\\Deck\\pt_BR1";              #base directory
 my @files_dcr;
 #my ($headline_copy_en_US,$headline_copy_es_CA,$headline_copy_fr_FR,$headline_copy_it_IT,$headline_copy_pt_BR,$headline_copy_zh_CN_cor);
     
@@ -76,6 +76,7 @@ sub set_value{
 	my $parser = new XML::DOM::Parser;
 	my $doc ;
 	eval { $doc = $parser->parsefile($targetFile);}; 
+	my $root = $doc->getDocumentElement();
 	 if ($@)      {		
 	 	my $error_found = $@;	
 	 	print "---File error------".$targetFile ."\n";	next;
@@ -83,12 +84,19 @@ sub set_value{
 #my @parent = $doc->getElementsByTagName ("item")->item(0);
 my @parent = $doc->getElementsByTagName ("item");
          foreach my $item(@parent){
+         	#print $item->toString;
         
          	my $node = $item->getAttributeNode('name');            #The return value of getAttributes XML::DOM::NamedNodeMap object
   
          		if ($node->getValue eq 'cutaway_image'){
-         			
-print $item->getElementsByTagName('value')->getValue;
+foreach my $ch($item->getChildNodes){
+$doc->getFirstChild()->removeChild($item);
+	print $doc->toString;
+	
+}
+        	#print $item->toString;
+        		
+     
          			
          		}
       
