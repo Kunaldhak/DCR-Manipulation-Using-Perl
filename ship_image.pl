@@ -54,6 +54,7 @@ sub get_value{
 	#foreach my $xmlrepoNode (@masternode)
 	{ 
 		$cutaway_image = $xmlrepoNode->getValue;
+		#print $cutaway_image;
 		#&set_value($cutaway_image,$targetFile);
 			$targetFile =~ s|en_US|es_CA|gi;
 				&set_value($cutaway_image,$targetFile);
@@ -90,8 +91,8 @@ my @parent = $doc->getElementsByTagName ("item");
   
          		if ($node->getValue eq 'cutaway_image'){
 foreach my $ch($item->getChildNodes){
-$doc->getFirstChild()->removeChild($item);
-	print $doc->toString;
+$root->removeChild($item);
+print $root->toString."\n";
 	
 }
         	#print $item->toString;
