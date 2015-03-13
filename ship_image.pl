@@ -17,7 +17,7 @@ use XML::DOM;
 
 #######################################
 #my $output_CSV="F:\\tsadm\\Kunal\\espresso_data\\cabin_type_per_ship_display_name(AT).csv";                    ##Output
-my $dcr_path = "D:\\Test_DCR\\Deck\\pt_BR1";              #base directory
+my $dcr_path = "D:\\EN-US\\Test_DCR\\ship\\en_US";              #base directory
 my @files_dcr;
 #my ($headline_copy_en_US,$headline_copy_es_CA,$headline_copy_fr_FR,$headline_copy_it_IT,$headline_copy_pt_BR,$headline_copy_zh_CN_cor);
     
@@ -54,10 +54,10 @@ sub get_value{
 	#foreach my $xmlrepoNode (@masternode)
 	{ 
 		$cutaway_image = $xmlrepoNode->getValue;
-		#print $cutaway_image;
 		#&set_value($cutaway_image,$targetFile);
-			$targetFile =~ s|en_US|es_CA|gi;
+			#$targetFile =~ s|en_US|es_CA|gi;
 				&set_value($cutaway_image,$targetFile);
+				#print $targetFile."\n";
 #				$targetFile =~ s|it_IT|es_CA|gi;
 #					&set_value($cutaway_image,$targetFile);
 #						$targetFile =~ s|es_CA|fr_FR|gi;
@@ -84,27 +84,29 @@ sub set_value{
 	 }
 #my @parent = $doc->getElementsByTagName ("item")->item(0);
 my @parent = $doc->getElementsByTagName ("item");
-         foreach my $item(@parent){
-         	#print $item->toString;
+         foreach my $items(@parent){
+         	#print $items->toString;
         
-         	my $node = $item->getAttributeNode('name');            #The return value of getAttributes XML::DOM::NamedNodeMap object
+         	my $node = $items->getAttributeNode('name');            #The return value of getAttributes XML::DOM::NamedNodeMap object
   
          		if ($node->getValue eq 'cutaway_image'){
-foreach my $ch($item->getChildNodes){
-$root->removeChild($item);
-print $root->toString."\n";
+         			#print $items->toString."\n";
+my $ch=$items->getChildNodes;
+#print $ch->toString;
+$root->removeChild($items);
+#print $root->toString."\n";
+
 	
-}
-        	#print $item->toString;
-        		
-     
-         			
+
+		
          		}
-      
+      $doc->printToFile($targetFile);
          	
          }
-
+$doc->dispose;
 }
+
+
 
 
 sub loadFiles()
