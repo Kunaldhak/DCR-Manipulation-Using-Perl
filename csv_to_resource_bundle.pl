@@ -1,5 +1,5 @@
-#!/apps/autonomy/app/iw-home/TeamSite/iw-perl/bin/iwperl
-
+use strict;
+use warnings;
 my $language_code = 'en_US';
 my $bundle_name = 'resource_bundle_currency';
 my $brand="C";
@@ -8,7 +8,7 @@ my $brand="C";
 my $outputFile="C:\\Users\\Enigma\\Desktop";
 my $csvFile="Temp\\currency.csv";
 
-$outputFile = $outputFile."/".$language_code."/resource_bundle_".lc $bundle_name.".xml";
+$outputFile = $outputFile."\\"."any.xml";
 
 open FILE, ">", $outputFile or die $!;
 
@@ -27,12 +27,12 @@ my $outxml=qq(<?xml version="1.0" encoding="UTF-8"?>
 open CSV, "<", $csvFile or die $!;
 
 while (<CSV>) {
-($key,$val) = split(/,/,$_);
+(my $key,my $val) = split(/,/,$_);
 chomp($key);
 chomp($val);
 
 
-      print "$orgkey -->$val \n"; 
+      print "$key -->$val \n"; 
 
 	  $outxml.=qq(
 		<resource>
