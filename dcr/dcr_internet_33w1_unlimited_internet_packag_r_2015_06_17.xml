@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE record SYSTEM "dcr4.5.dtd">
+<record name="dcr_internet_33w1_unlimited_internet_packag_r_2015_06_17.xml" type="content">
+    <item name="brand_sel">
+        <value>r</value>
+    </item>
+    <item name="internet_product">
+        <value>100000000002404343@@@33W1@@@Internet Packages</value>
+    </item>
+    <item name="product_description">
+        <value>33W1 - Unlimited Internet package 1 device</value>
+    </item>
+    <item name="language">
+        <value>en_US</value>
+    </item>
+    <item name="effective_date">
+        <value>2015-06-17</value>
+    </item>
+    <item name="flash_indicator">
+        <value>false</value>
+    </item>
+    <item name="gallery_indicator">
+        <value>false</value>
+    </item>
+    <item name="thumbnail_image">
+        <value>/media/royal/shared_assets/images/internet-packages/1-device-internet-33J0-mosaic.jpg</value>
+    </item>
+    <item name="thumbnail_image_alt_text">
+        <value>Unlimited Internet - 1 Device</value>
+    </item>
+    <item name="hero_image">
+        <value>/media/royal/shared_assets/images/internet-packages/1-device-internet-33J0-hero.jpg</value>
+    </item>
+    <item name="hero_image_alt_text">
+        <value>Unlimited Internet - 1 Device</value>
+    </item>
+    <item name="bundle_name">
+        <value/>
+    </item>
+    <item name="duration">
+        <value/>
+    </item>
+    <item name="hours_of_operation">
+        <value/>
+    </item>
+    <item name="image">
+        <value>/media/royal/shared_assets/images/internet-packages/1-device-internet-33J0-mosaic.jpg</value>
+    </item>
+    <item name="image_alt_text">
+        <value>Unlimited Internet - 1 Device</value>
+    </item>
+    <item name="video">
+        <value/>
+    </item>
+    <item name="banner_image">
+        <value>/media/royal/shared_assets/images/internet-packages/1-device-internet-33J0-hero.jpg</value>
+    </item>
+    <item name="banner_image_alt_text">
+        <value>Unlimited Internet - 1 Device</value>
+    </item>
+    <item name="logo">
+        <value/>
+    </item>
+    <item name="logo_alt_text">
+        <value/>
+    </item>
+    <item name="name">
+        <value/>
+    </item>
+    <item name="title_copy">
+        <value>Unlimited Internet - 1 Device</value>
+    </item>
+    <item name="text">
+        <value/>
+    </item>
+    <item name="restrictions_contraindications">
+        <value/>
+    </item>
+    <item name="display_name">
+        <value>Unlimited Internet - 1 Device</value>
+    </item>
+    <item name="pr_location">
+        <value/>
+    </item>
+    <item name="short_description">
+        <value>Surf, share and stay connected with unlimited internet for the duration of your vacation. </value>
+    </item>
+    <item name="callDB">
+        <value/>
+    </item>
+    <item name="restriction_dropdown"/>
+    <item name="restriction_id_dropdown"/>
+    <item name="booking_restrictions"/>
+    <item name="product_long_description">
+        <value>
+            <item name="long_description">
+                <value/>
+            </item>
+<item name="rep_count">
+                <value/>
+            </item>
+</value>
+    </item>
+    <item name="flash"/>
+    <item name="gallery"/>
+    <item name="restrictions"/>
+    <item name="hero_banner"/>
+    <item name="segment_link"/>
+    <item name="disclaimer">
+        <value>
+            <item name="title">
+                <value/>
+            </item>
+<item name="description">
+                <value>&lt;p&gt;Your internet access code will be in your stateroom on Day 1 when you arrive to the ship. Once onboard, connect to Royal WiFi, enter your access code and start surfing!&lt;br /&gt;Due to the nature of satellite communications at sea, there may be fluctuations in the signal from time to time or no signal connection due to weather, ship position, radio wave interference or other conditions.&lt;/p&gt;</value>
+            </item>
+<item name="rep_count">
+                <value>1</value>
+            </item>
+</value>
+    </item>
+    <item name="highlights"/>
+    <item name="helpful_hints"/>
+    <item name="notes"/>
+    <item name="what_to_bring"/>
+    <item name="what_to_wear"/>
+    <item name="overview">
+        <value>
+            <item name="title">
+                <value>Overview</value>
+            </item>
+<item name="description">
+                <value>Surf, share, &amp; stay connected with pervasive wifi!&lt;br /&gt;
+Email friends, check your stocks, surf the web and share pictures of your incredible cruise adventure!
+This package provides you unlimited internet access for 1 device while onboard. For the best value, check out the 2 device package and save 50% on your second device!</value>
+            </item>
+<item name="rep_count">
+                <value>1</value>
+            </item>
+</value>
+    </item>
+    <item name="full_description"/>
+    <item name="meta_data"/>
+    <item name="last_modified_user">
+        <value>NA\118208</value>
+    </item>
+    <item name="last_modified_dtm">
+        <value>2015-06-26 14:13:18</value>
+    </item>
+    <item name="my_dcr_vpath">
+        <value>/default/main/Test/WORKAREA/PCP_Internet_Package/templatedata/product/internet/data/en_US/dcr_internet_33w1_unlimited_internet_packag_r_2015_06_17.xml</value>
+    </item>
+    <item name="my_tdt">
+        <value>product/internet</value>
+    </item>
+    <item name="dcr_name">
+        <value>internet_33w1_unlimited_internet_packag_r_2015_06_17</value>
+    </item>
+    <item name="product_id">
+        <value>100000000002404343</value>
+    </item>
+    <item name="data_location">
+        <value/>
+    </item>
+    <item name="cache_key_url">
+        <value>cacheName=ProductContent&amp;cacheKey=PRODUCT~~100000000002404343-asr_r-en_US,cacheName=ProductContent&amp;cacheKey=PRODUCT~~100000000002404343-ALL-ALL,cacheName=ProductContent&amp;cacheKey=PRODUCT~~100000000002404343-asr_r-en</value>
+    </item>
+    <item name="shared_applications">
+        <value/>
+    </item>
+</record>

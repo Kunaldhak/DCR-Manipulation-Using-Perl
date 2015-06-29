@@ -6,9 +6,9 @@ sub mySub();
 my @files = ();
 my $templateName = $ARGV[0];
 my $dbName = $ARGV[1];
-my $configPath = "espresso"; 
+my $configPath = "asr"; 
 
-my $dir= "Y:/default/main/espresso/WORKAREA/emd/templatedata/".$templateName."/data";
+my $dir= "Y:/default/main/asr/WORKAREA/asr_main/templatedata/".$templateName."/data";
 
 my $workarea =$dir;
 $workarea =~ s|Y:(.*)/templatedata(.*)|$1|gi;
