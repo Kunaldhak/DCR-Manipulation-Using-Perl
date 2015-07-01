@@ -1,4 +1,5 @@
 use strict;
+
 print "hi";
 open(FILE, "</dcr/dcr_internet_33w1_unlimited_internet_packag_r_2015_06_17.xml") || die "File not found";
 my @lines = <FILE>;

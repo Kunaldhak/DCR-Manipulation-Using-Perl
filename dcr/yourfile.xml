@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE record SYSTEM "dcr4.5.dtd">
-<record name="dcr_internet_33w1_unlimited_internet_packag_r_2015_06_17.xml" type="content">
+<record name="dcr_internet_33w2_2_device_internet_for_f_r_2015_06_30.xml" type="content">
     <item name="brand_sel">
         <value>r</value>
     </item>
     <item name="internet_product">
-        <value>KDJ@@@33W1@@@Internet Packages</value>
+        <value>KDJ@@@33W2@@@Internet Packages</value>
     </item>
     <item name="product_description">
-        <value>33W1 - Unlimited Internet package 1 device</value>
+        <value>33W2 - 2 Device  Internet for Full Voyage (Royal Wifi)</value>
     </item>
     <item name="language">
         <value>en_US</value>
     </item>
     <item name="effective_date">
-        <value>2015-06-17</value>
+        <value>2015-06-30</value>
     </item>
     <item name="flash_indicator">
         <value>false</value>
@@ -23,16 +23,16 @@
         <value>false</value>
     </item>
     <item name="thumbnail_image">
-        <value>/media/royal/shared_assets/images/internet-packages/1-device-internet-33J0-mosaic.jpg</value>
+        <value>/media/royal/shared_assets/images/internet-packages/1-device-internet-33J1-mosaic.jpg</value>
     </item>
     <item name="thumbnail_image_alt_text">
-        <value>Unlimited Internet - 1 Device</value>
+        <value>Unlimited Internet - 2 Devices</value>
     </item>
     <item name="hero_image">
-        <value>/media/royal/shared_assets/images/internet-packages/1-device-internet-33J0-hero.jpg</value>
+        <value>/media/royal/shared_assets/images/internet-packages/1-device-internet-33J1-hero.jpg</value>
     </item>
     <item name="hero_image_alt_text">
-        <value>Unlimited Internet - 1 Device</value>
+        <value>Unlimited Internet - 2 Devices</value>
     </item>
     <item name="bundle_name">
         <value/>
@@ -44,19 +44,19 @@
         <value/>
     </item>
     <item name="image">
-        <value>/media/royal/shared_assets/images/internet-packages/1-device-internet-33J0-mosaic.jpg</value>
+        <value>/media/royal/shared_assets/images/internet-packages/1-device-internet-33J1-mosaic.jpg</value>
     </item>
     <item name="image_alt_text">
-        <value>Unlimited Internet - 1 Device</value>
+        <value>Unlimited Internet - 2 Devices</value>
     </item>
     <item name="video">
         <value/>
     </item>
     <item name="banner_image">
-        <value>/media/royal/shared_assets/images/internet-packages/1-device-internet-33J0-hero.jpg</value>
+        <value>/media/royal/shared_assets/images/internet-packages/1-device-internet-33J1-hero.jpg</value>
     </item>
     <item name="banner_image_alt_text">
-        <value>Unlimited Internet - 1 Device</value>
+        <value>Unlimited Internet - 2 Devices</value>
     </item>
     <item name="logo">
         <value/>
@@ -68,7 +68,7 @@
         <value/>
     </item>
     <item name="title_copy">
-        <value>Unlimited Internet - 1 Device</value>
+        <value>Unlimited Internet - 2 Devices</value>
     </item>
     <item name="text">
         <value/>
@@ -77,13 +77,13 @@
         <value/>
     </item>
     <item name="display_name">
-        <value>Unlimited Internet - 1 Device</value>
+        <value>Unlimited Internet - 2 Devices</value>
     </item>
     <item name="pr_location">
         <value/>
     </item>
     <item name="short_description">
-        <value>Surf, share and stay connected with unlimited internet for the duration of your vacation. </value>
+        <value>Buy one device and get the second one for 50% off!&lt;br /&gt;Surf, share and stay connected with unlimited internet for the duration of your vacation. </value>
     </item>
     <item name="callDB">
         <value/>
@@ -127,12 +127,12 @@
     <item name="overview">
         <value>
             <item name="title">
-                <value>Overview</value>
+                <value>Overview - 2 Devices</value>
             </item>
 <item name="description">
-                <value>Surf, share, &amp; stay connected with pervasive wifi!&lt;br /&gt;
-Email friends, check your stocks, surf the web and share pictures of your incredible cruise adventure!
-This package provides you unlimited internet access for 1 device while onboard. For the best value, check out the 2 device package and save 50% on your second device!</value>
+                <value>Buy one device and get the second one for 50% off!&lt;br /&gt;
+Surf, share, &amp; stay connected with pervasive wifi! Email friends, check your stocks, surf the web and share pictures of your incredible cruise adventure!&lt;br /&gt;
+This package provides you unlimited internet access for 2 devices while onboard.</value>
             </item>
 <item name="rep_count">
                 <value>1</value>
@@ -145,16 +145,16 @@ This package provides you unlimited internet access for 1 device while onboard. 
         <value>NA\118208</value>
     </item>
     <item name="last_modified_dtm">
-        <value>2015-06-26 14:13:18</value>
+        <value>2015-06-26 14:14:00</value>
     </item>
     <item name="my_dcr_vpath">
-        <value>/default/main/Test/WORKAREA/PCP_Internet_Package/templatedata/product/internet/data/en_US/dcr_internet_33w1_unlimited_internet_packag_r_2015_06_17.xml</value>
+        <value>/default/main/Test/WORKAREA/PCP_Internet_Package/templatedata/product/internet/data/en_US/dcr_internet_33w2_2_device_internet_for_f_r_2015_06_30.xml</value>
     </item>
     <item name="my_tdt">
         <value>product/internet</value>
     </item>
     <item name="dcr_name">
-        <value>internet_33w1_unlimited_internet_packag_r_2015_06_17</value>
+        <value>internet_33w2_2_device_internet_for_f_r_2015_06_30</value>
     </item>
     <item name="product_id">
         <value>KDJ</value>
