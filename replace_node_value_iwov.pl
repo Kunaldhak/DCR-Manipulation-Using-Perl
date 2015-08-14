@@ -10,9 +10,9 @@
 ##########################################################################################################
 #
 #use TeamSite::Config;
-#use XML::XPath;
-#use XML::DOM;
-#use XML::XPath::XMLParser;
+use XML::XPath;
+use XML::DOM;
+use XML::XPath::XMLParser;
 use File::Find;
 use Data::Dumper;
 

@@ -1,7 +1,7 @@
 
 #use TeamSite::Config;
 #use XML::XPath;
-#use XML::XPath::XMLParser;
+use XML::XPath::XMLParser;
 use File::Find;
 #use XML::Parser;
 #use XML::DOM;

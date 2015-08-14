@@ -1,7 +1,7 @@
-use HTML::Table;
+#use HTML::Table;
 
   $table1 = new HTML::Table($rows, $cols);
-    or
+    #or
   $table1 = new HTML::Table(-rows=>26,
                             -cols=>2,
                             -align=>'center',
@@ -17,7 +17,7 @@ use HTML::Table;
                             -oddrowclass=>'odd',
                             -head=> ['head1', 'head2'],
                             -data=> [ ['1:1', '1:2'], ['2:1', '2:2'] ] );
-   or
+   #or
   $table1 = new HTML::Table( [ ['1:1', '1:2'], ['2:1', '2:2'] ] );
 
   $table1->setCell($cellrow, $cellcol, 'This is Cell 1');
