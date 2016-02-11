@@ -1,0 +1,2315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<entries>
+    <vpath value="//rhlpa010.rccl.com/default">
+        <user-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </user-entry>
+        <group-entry>
+            <group id="iwEveryone"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Viewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-editor"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/component-guide">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/component-guide">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/component-guide/iw-g11n">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/ROYAL">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="&lt;no user&gt;"/>
+            <role id="RoyalContentEditor"/>
+        </user-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="editor"/>
+        </user-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="reviewer"/>
+        </user-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="workflowUser"/>
+        </user-entry>
+        <group-entry>
+            <group id="iwEveryone"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="TeamSiteAdmins"/>
+            <role id="admin"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/ROYAL">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/ROYAL/iw-g11n">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/iw-g11n">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="119192"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="119192"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+        <group-entry>
+            <group id="COM_Editors"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="iwEveryone"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="AU_Editors"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-authors"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PREVIEW">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/DEVELOPMENT">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/STAGE">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/STAGE">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PRODUCTION">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="119192"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="119192"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PREVIEW/royalcaribbean.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="119192"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="119192"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/royalcaribbean.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/DEVELOPMENT/royalcaribbean.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT/royalcaribbean.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/STAGE/royalcaribbean.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/STAGE/royalcaribbean.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PRODUCTION/royalcaribbean.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="119192"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="119192"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/royalcaribbean.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PREVIEW/royalcaribbean.es">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/royalcaribbean.es">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/DEVELOPMENT/royalcaribbean.es">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT/royalcaribbean.es">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/STAGE/royalcaribbean.es">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/STAGE/royalcaribbean.es">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PRODUCTION/royalcaribbean.es">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/royalcaribbean.es">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PREVIEW/royalcaribbean-espanol.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/royalcaribbean-espanol.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/DEVELOPMENT/royalcaribbean-espanol.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT/royalcaribbean-espanol.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/STAGE/royalcaribbean-espanol.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/STAGE/royalcaribbean-espanol.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PRODUCTION/royalcaribbean-espanol.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/royalcaribbean-espanol.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PREVIEW/royalcaribbean.com.au">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/royalcaribbean.com.au">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/DEVELOPMENT/royalcaribbean.com.au">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT/royalcaribbean.com.au">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/STAGE/royalcaribbean.com.au">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/STAGE/royalcaribbean.com.au">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PRODUCTION/royalcaribbean.com.au">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/royalcaribbean.com.au">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PREVIEW/royalcaribbean.com.br">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/royalcaribbean.com.br">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/DEVELOPMENT/royalcaribbean.com.br">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT/royalcaribbean.com.br">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/STAGE/royalcaribbean.com.br">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/STAGE/royalcaribbean.com.br">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PRODUCTION/royalcaribbean.com.br">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/royalcaribbean.com.br">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/CELEBRITY">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+        <group-entry>
+            <group id="COM_Editors"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Editors"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="iwEveryone"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="TeamSiteAdmins"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Viewers"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Viewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Reviewers"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="RoyalContentReviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-authors"/>
+            <role id="author"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-authors"/>
+            <role id="workflowUser"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-editor"/>
+            <role id="editor"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-editor"/>
+            <role id="workflowUser"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-administrator"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-reviewers"/>
+            <role id="reviewer"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/CELEBRITY">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/CELEBRITY/celebritycruises.com">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+        <group-entry>
+            <group id="cel-com-authors"/>
+            <role id="author"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-authors"/>
+            <role id="workflowUser"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-editor"/>
+            <role id="editor"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-editor"/>
+            <role id="workflowUser"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-administrator"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-reviewers"/>
+            <role id="reviewer"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/CELEBRITY/celebritycruises.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PREVIEW/celebritycruises.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <group-entry>
+            <group id="cel-com-authors"/>
+            <role id="author"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-editor"/>
+            <role id="editor"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-editor"/>
+            <role id="workflowUser"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/celebritycruises.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/DEVELOPMENT/celebritycruises.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <group-entry>
+            <group id="cel-com-authors"/>
+            <role id="author"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-editor"/>
+            <role id="editor"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-editor"/>
+            <role id="workflowUser"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT/celebritycruises.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/STAGE/celebritycruises.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <group-entry>
+            <group id="cel-com-authors"/>
+            <role id="author"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-editor"/>
+            <role id="editor"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-editor"/>
+            <role id="workflowUser"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/STAGE/celebritycruises.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PRODUCTION/celebritycruises.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <group-entry>
+            <group id="cel-com-authors"/>
+            <role id="author"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-editor"/>
+            <role id="editor"/>
+        </group-entry>
+        <group-entry>
+            <group id="cel-com-editor"/>
+            <role id="workflowUser"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/celebritycruises.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/CELEBRITY/celebritycruises.com/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/royalcaribbean.com/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/dcr-conversion">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/dcr-conversion">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/dcr-conversion/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT/royalcaribbean.com/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/STAGE/royalcaribbean.com/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/royalcaribbean.com/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/CRUISEPLUS">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/CRUISEPLUS">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/CRUISEPLUS/royalcaribbean.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <group-entry>
+            <group id="COM_Editors"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Editors"/>
+            <role id="RoyalContentViewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Editors"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="BR_Editors"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="BR_Editors"/>
+            <role id="RoyalContentViewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="BR_Editors"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="ES_Editors"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="ES_Editors"/>
+            <role id="RoyalContentViewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="ES_Editors"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="ESPANOL_Editors"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="ESPANOL_Editors"/>
+            <role id="RoyalContentViewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="ESPANOL_Editors"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="AU_Editors"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="AU_Editors"/>
+            <role id="RoyalContentViewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="AU_Editors"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="TeamSiteAdmins"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="TeamSiteAdmins"/>
+            <role id="RoyalContentViewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="TeamSiteAdmins"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="FluintAdmin"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="FluintAdmin"/>
+            <role id="RoyalContentViewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="FluintAdmin"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Viewers"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Viewers"/>
+            <role id="RoyalContentViewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Viewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="AU_Reviewers"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="AU_Reviewers"/>
+            <role id="RoyalContentViewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="AU_Reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="BR_Reviewers"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="BR_Reviewers"/>
+            <role id="RoyalContentViewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="BR_Reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Reviewers"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Reviewers"/>
+            <role id="RoyalContentViewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="ESPANOL_Reviewers"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="ESPANOL_Reviewers"/>
+            <role id="RoyalContentViewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="ESPANOL_Reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="ES_Reviewers"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="ES_Reviewers"/>
+            <role id="RoyalContentViewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="ES_Reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="RoyalContentReviewers"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="RoyalContentReviewers"/>
+            <role id="RoyalContentViewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="RoyalContentReviewers"/>
+            <role id="admin"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/CRUISEPLUS/royalcaribbean.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/CRUISEPLUS/royalcaribbean.com/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/celebritycruises.com/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/celebritycruises.com/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/CELEBRITY/iw-g11n">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/CRUISEPLUS/royal.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/CRUISEPLUS/royal.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/CRUISEPLUS/royal.com/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PRODUCTION/royal.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/royal.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/royal.com/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/iw-g11n">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/dcr-conversion/Royal">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/dcr-conversion/Royal">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/dcr-conversion/Royal/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/iw-g11n">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT/celebritycruises.com/iw-g11n">
+        <owner-entry>
+            <user id="16777217"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/STAGE/celebritycruises.com/iw-g11n">
+        <owner-entry>
+            <user id="16777217"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT/iw-g11n">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/STAGE/royalcaribbean.es/iw-g11n">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/PCP">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="124803"/>
+            <role id="author"/>
+        </user-entry>
+        <user-entry>
+            <user id="124803"/>
+            <role id="editor"/>
+        </user-entry>
+        <user-entry>
+            <user id="124803"/>
+            <role id="workflowUser"/>
+        </user-entry>
+        <group-entry>
+            <group id="COM_Editors"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/PCP">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/PCP/pcp-web">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="124803"/>
+            <role id="author"/>
+        </user-entry>
+        <user-entry>
+            <user id="124803"/>
+            <role id="editor"/>
+        </user-entry>
+        <user-entry>
+            <user id="124803"/>
+            <role id="workflowUser"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/PCP/pcp-web">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PREVIEW/pcp-web">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/pcp-web">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/DEVELOPMENT/pcp-web">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT/pcp-web">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PRODUCTION/pcp-web">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/pcp-web">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/STAGE/pcp-web">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/STAGE/pcp-web">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/PCP/pcp-web/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/pcp-web/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PREVIEW/celebritycruises.com.cms1">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/celebritycruises.com.cms1">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/DEVELOPMENT/celebritycruises.com.cms1">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT/celebritycruises.com.cms1">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/STAGE/celebritycruises.com.cms1">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/STAGE/celebritycruises.com.cms1">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PRODUCTION/celebritycruises.com.cms1">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/celebritycruises.com.cms1">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/celebritycruises.com.cms1/iw-g11n">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/pcp-web/iw-g11n">
+        <owner-entry>
+            <user id="16777217"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/celebritycruises.com.cms1/iw-g11n">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT/pcp-web/iw-g11n">
+        <owner-entry>
+            <user id="16777217"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/PCP/iw-g11n">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/ROYAL/royalcaribbean.com">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="gdp_author"/>
+            <role id="RoyalContentEditor"/>
+        </user-entry>
+        <user-entry>
+            <user id="gdp_author"/>
+            <role id="RoyalContentViewer"/>
+        </user-entry>
+        <user-entry>
+            <user id="gdp_author"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="gdp_author"/>
+            <role id="author"/>
+        </user-entry>
+        <user-entry>
+            <user id="gdp_author"/>
+            <role id="editor"/>
+        </user-entry>
+        <user-entry>
+            <user id="gdp_author"/>
+            <role id="reviewer"/>
+        </user-entry>
+        <user-entry>
+            <user id="gdp_author"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+        <user-entry>
+            <user id="gdp_author"/>
+            <role id="workflowUser"/>
+        </user-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="editor"/>
+        </user-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="reviewer"/>
+        </user-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="workflowUser"/>
+        </user-entry>
+        <group-entry>
+            <group id="COM_Editors"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Editors"/>
+            <role id="RoyalContentViewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Editors"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Editors"/>
+            <role id="author"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Editors"/>
+            <role id="editor"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Editors"/>
+            <role id="reviewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Editors"/>
+            <role id="workflowAdmin"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Editors"/>
+            <role id="workflowUser"/>
+        </group-entry>
+        <group-entry>
+            <group id="TeamSiteAdmins"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Reviewers"/>
+            <role id="reviewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="RoyalContentReviewers"/>
+            <role id="RoyalContentEditor"/>
+        </group-entry>
+        <group-entry>
+            <group id="RoyalContentReviewers"/>
+            <role id="RoyalContentViewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="RoyalContentReviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="RoyalContentReviewers"/>
+            <role id="author"/>
+        </group-entry>
+        <group-entry>
+            <group id="RoyalContentReviewers"/>
+            <role id="editor"/>
+        </group-entry>
+        <group-entry>
+            <group id="RoyalContentReviewers"/>
+            <role id="reviewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="RoyalContentReviewers"/>
+            <role id="workflowAdmin"/>
+        </group-entry>
+        <group-entry>
+            <group id="RoyalContentReviewers"/>
+            <role id="workflowUser"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/ROYAL/royalcaribbean.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/ROYAL/royalcaribbean.com/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/CALLCENTER">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/CALLCENTER">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/CALLCENTER/ires">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/CALLCENTER/ires">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/CALLCENTER/ires/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PRODUCTION/ires">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/ires">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/ires/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/iw-g11n">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/CROSSMEDIA">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="103257"/>
+            <role id="admin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/CROSSMEDIA">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/CROSSMEDIA/iw-g11n">
+        <owner-entry>
+            <user id="103325"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/ROYAL/translation_gdp">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="editor"/>
+        </user-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="reviewer"/>
+        </user-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="workflowUser"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/ROYAL/translation_gdp">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/ROYAL/translation_gdp/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PREVIEW/ires">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/ires">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/CELEBRITY/celebrity360">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/CELEBRITY/celebrity360">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/CELEBRITY/celebrity360/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PREVIEW/celebrity360">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/celebrity360">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/REPO/PRODUCTION/celebrity360">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/celebrity360">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/celebrity360/iw-g11n">
+        <owner-entry>
+            <user id="110157"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/celebrity360/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/ires/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/ROYAL/royalcaribbean.com.br">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="editor"/>
+        </user-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="reviewer"/>
+        </user-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="workflowUser"/>
+        </user-entry>
+        <group-entry>
+            <group id="BR_Reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="BR_Reviewers"/>
+            <role id="reviewer"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/ROYAL/royalcaribbean.com.br">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/ROYAL/royalcaribbean.es">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="editor"/>
+        </user-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="reviewer"/>
+        </user-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="workflowUser"/>
+        </user-entry>
+        <group-entry>
+            <group id="ES_Reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="ES_Reviewers"/>
+            <role id="reviewer"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/ROYAL/royalcaribbean.es">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/ROYAL/royalcaribbean-espanol.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="editor"/>
+        </user-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="reviewer"/>
+        </user-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="workflowUser"/>
+        </user-entry>
+        <group-entry>
+            <group id="AU_Editors"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="AU_Editors"/>
+            <role id="reviewer"/>
+        </group-entry>
+        <group-entry>
+            <group id="ESPANOL_Reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="ESPANOL_Reviewers"/>
+            <role id="reviewer"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/ROYAL/royalcaribbean-espanol.com">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/ROYAL/royalcaribbean-espanol.com/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/main/ROYAL/royalcaribbean.com.au">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="editor"/>
+        </user-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="reviewer"/>
+        </user-entry>
+        <user-entry>
+            <user id="125645"/>
+            <role id="workflowUser"/>
+        </user-entry>
+        <group-entry>
+            <group id="COM_Editors"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="AU_Reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Reviewers"/>
+            <role id="admin"/>
+        </group-entry>
+        <group-entry>
+            <group id="COM_Reviewers"/>
+            <role id="reviewer"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/ROYAL/royalcaribbean.com.au">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT/royalcaribbean-espanol.com/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT/royalcaribbean.es/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT/royalcaribbean.com.br/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/DEVELOPMENT/royalcaribbean.com.au/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/royalcaribbean.com.au/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/royalcaribbean.com.br/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/royalcaribbean.es/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PREVIEW/royalcaribbean-espanol.com/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/STAGE/royalcaribbean-espanol.com/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/STAGE/royalcaribbean.com.br/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/STAGE/royalcaribbean.com.au/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/royalcaribbean.com.au/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/royalcaribbean.com.br/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/royalcaribbean.es/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/REPO/PRODUCTION/royalcaribbean-espanol.com/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/ROYAL/royalcaribbean.com.au/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/ROYAL/royalcaribbean.es/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/default/iwconfig/main/ROYAL/royalcaribbean.com.br/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin">
+        <user-entry>
+            <user id="866908772"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+        <group-entry>
+            <group id="iwEveryone"/>
+            <role id="admin"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/main">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/main/workflowModels">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+        <group-entry>
+            <group id="iwEveryone"/>
+            <role id="workflowUser"/>
+        </group-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/workflowModels">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/main/config">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/config">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/main/config/backup">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/config/backup">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/main/archivalModule">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/archivalModule">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/main/livesite">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/livesite">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/main/livesite/component">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/livesite/component">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/main/livesite/i18n">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/livesite/i18n">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/main/livesite/config">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/livesite/config">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/main/livesite/template">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/livesite/template">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/main/livesite/test">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/livesite/test">
+        <owner-entry>
+            <user id="iwui"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/main/spars">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/spars">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/workflowModels/iw-g11n">
+        <owner-entry>
+            <user id="16777217"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/main/Fluint">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/Fluint">
+        <owner-entry>
+            <user id="16777217"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/Fluint/iw-g11n">
+        <owner-entry>
+            <user id="16777217"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/main/rccl">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="admin"/>
+        </user-entry>
+        <user-entry>
+            <user id="866908772"/>
+            <role id="workflowAdmin"/>
+        </user-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/rccl">
+        <owner-entry>
+            <user id="root"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/rccl/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/config/iw-g11n">
+        <owner-entry>
+            <user id="&lt;no user&gt;"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/config/backup/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/iw-g11n">
+        <owner-entry>
+            <user id="16777259"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/livesite/component/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+    <vpath value="//rhlpa010.rccl.com/iwadmin/iwconfig/main/livesite/test/iw-g11n">
+        <owner-entry>
+            <user id="cmsadmin"/>
+            <role id="admin"/>
+        </owner-entry>
+    </vpath>
+</entries>

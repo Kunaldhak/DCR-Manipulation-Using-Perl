@@ -12,7 +12,7 @@ use File::Find;
 use Data::Dumper;
 use Encode;
 use File::Basename;
-use Text::CSV;
+#use Text::CSV;
 use XML::DOM;
 
 #######################################

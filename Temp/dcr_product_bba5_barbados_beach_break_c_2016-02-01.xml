@@ -1,0 +1,351 @@
+<record name="dcr_product_bba5_barbados_beach_break_c_2016-02-01.xml" type="content">
+    <item name="search_product_name">
+        <value/>
+    </item>
+    <item name="product_list">
+        <value>BBA5 - Barbados Beach Break</value>
+    </item>
+    <item name="product_desc_display">
+        <value>BBA5 - Barbados Beach Break</value>
+    </item>
+    <item name="language">
+        <value>en_US</value>
+    </item>
+    <item name="brand_sel">
+        <value>c</value>
+    </item>
+    <item name="effective_date">
+        <value>2016-02-01</value>
+    </item>
+    <item name="flash_indicator">
+        <value>false</value>
+    </item>
+    <item name="gallery_indicator">
+        <value>false</value>
+    </item>
+    <item name="iq_hero_image">
+        <value/>
+    </item>
+    <item name="iq_hero_image_alt_text">
+        <value/>
+    </item>
+    <item name="hero_image">
+        <value/>
+    </item>
+    <item name="hero_image_alt_text">
+        <value/>
+    </item>
+    <item name="body_thumbnail">
+        <value/>
+    </item>
+    <item name="body_thumbnail_alt_text">
+        <value/>
+    </item>
+    <item name="title_copy">
+        <value/>
+    </item>
+    <item name="duration">
+        <value>3 hours 30 minutes</value>
+    </item>
+    <item name="hours_of_operation">
+        <value/>
+    </item>
+    <item name="image">
+        <value>/media/celebrity/shared_assets/images/shore-excursions/bridgetown/tiki-bar-at-accra-beach-BBA5-mosaic.jpg</value>
+    </item>
+    <item name="image_alt_text">
+        <value>Barbados Beach Break</value>
+    </item>
+    <item name="video">
+        <value/>
+    </item>
+    <item name="banner_image">
+        <value>/media/celebrity/shared_assets/images/dest_shex/shorex_BBA5.jpg</value>
+    </item>
+    <item name="banner_image_alt_text">
+        <value>Barbados Beach Break</value>
+    </item>
+    <item name="logo">
+        <value/>
+    </item>
+    <item name="logo_alt_text">
+        <value/>
+    </item>
+    <item name="name">
+        <value/>
+    </item>
+    <item name="text">
+        <value/>
+    </item>
+    <item name="restrictions_contraindications">
+        <value/>
+    </item>
+    <item name="display_name">
+        <value>Barbados Beach Break</value>
+    </item>
+    <item name="pr_location">
+        <value>Bridgetown, Barbados</value>
+    </item>
+    <item name="short_description">
+        <value>Enjoy a sun splashed day at one of Barbados most beautiful public beaches.</value>
+    </item>
+    <item name="callDB">
+        <value/>
+    </item>
+    <item name="restriction_dropdown"/>
+    <item name="restriction_id_dropdown"/>
+    <item name="booking_restrictions"/>
+    <item name="product_long_description">
+        <value>
+            <item name="long_description">
+                <value>&lt;p&gt;Enjoy a sun splashed day at&amp;nbsp;one of Barbados most beautiful public&amp;nbsp;beaches. A scenic drive through the heart of Barbados brings you to Carlisle Beach. Feel the warm sun on your face as you step onto the powdery sand and escape the hustle and bustle of the real world. Experience the leisure life as you go for a refreshing swim, sunbathe, or relax with a tropical drink.
+                &lt;br /&gt;&lt;strong&gt;&lt;br /&gt;Highlights: &lt;br /&gt;&lt;/strong&gt;&amp;bull; Sit on a comfortable beach chair and lounge beneath the warm Caribbean sun. &lt;br /&gt;&amp;bull; Stroll along the sandy shores, dip your toes in the turquoise water, or nap under a swaying palm. &lt;br /&gt;
+                &lt;strong&gt;&lt;br /&gt;What to Bring: &lt;br /&gt;&lt;/strong&gt;
+                &amp;bull; SeaPass card and photo identification &lt;br /&gt;
+                &amp;bull; Camera &lt;br /&gt;&amp;bull; Sun protection &lt;br /&gt;
+                &amp;bull; Cash/credit cards&lt;br /&gt;
+                &amp;bull; Towel (from ship) &lt;br /&gt;
+                &amp;bull; Change of clothes&lt;br /&gt;
+                
+                 &amp;bull; Insect repellent&lt;br /&gt;
+                 &lt;strong&gt;&lt;br /&gt;What to Wear:&lt;br /&gt;&lt;/strong&gt;&amp;bull; Hat and sunglasses &lt;br /&gt;&amp;bull; Swimsuit under cover-up or light clothing&lt;/p&gt;</value>
+            </item>
+<item name="rep_count">
+                <value>1</value>
+            </item>
+</value>
+    </item>
+    <item name="flash"/>
+    <item name="hero_banner">
+        <value>
+            <item name="name">
+                <value/>
+            </item>
+<item name="description">
+                <value/>
+            </item>
+<item name="image">
+                <value>/media/celebrity/shared_assets/images/shore-excursions/bridgetown/tiki-bar-at-accra-beach-BBA5-01.jpg</value>
+            </item>
+<item name="image_alt_text">
+                <value>Barbados Beach Break</value>
+            </item>
+<item name="video">
+                <value/>
+            </item>
+<item name="rep_count">
+                <value>1</value>
+            </item>
+</value>
+        <value>
+            <item name="name">
+                <value/>
+            </item>
+<item name="description">
+                <value/>
+            </item>
+<item name="image">
+                <value>/media/celebrity/shared_assets/images/shore-excursions/bridgetown/tiki-bar-at-accra-beach-BBA5-02.jpg</value>
+            </item>
+<item name="image_alt_text">
+                <value>Barbados Beach Break</value>
+            </item>
+<item name="video">
+                <value/>
+            </item>
+<item name="rep_count">
+                <value>2</value>
+            </item>
+</value>
+    </item>
+    <item name="gallery"/>
+    <item name="restrictions"/>
+    <item name="segment_link"/>
+    <item name="disclaimer"/>
+    <item name="highlights">
+        <value>
+            <item name="title">
+                <value>Highlights</value>
+            </item>
+<item name="description">
+                <value>Sit on a comfortable beach chair and lounge beneath the warm Caribbean sun.</value>
+            </item>
+<item name="rep_count">
+                <value>1</value>
+            </item>
+</value>
+        <value>
+            <item name="title">
+                <value/>
+            </item>
+<item name="description">
+                <value>Stroll along the sandy shores, dip your toes in the turquoise water, or nap under a swaying palm.</value>
+            </item>
+<item name="rep_count">
+                <value>2</value>
+            </item>
+</value>
+    </item>
+    <item name="helpful_hints"/>
+    <item name="notes"/>
+    <item name="what_to_bring">
+        <value>
+            <item name="title">
+                <value>What To Bring</value>
+            </item>
+<item name="description">
+                <value>SeaPass card and photo identification</value>
+            </item>
+<item name="rep_count">
+                <value>1</value>
+            </item>
+</value>
+        <value>
+            <item name="title">
+                <value/>
+            </item>
+<item name="description">
+                <value>Camera</value>
+            </item>
+<item name="rep_count">
+                <value>2</value>
+            </item>
+</value>
+        <value>
+            <item name="title">
+                <value/>
+            </item>
+<item name="description">
+                <value>Sun protection</value>
+            </item>
+<item name="rep_count">
+                <value>3</value>
+            </item>
+</value>
+        <value>
+            <item name="title">
+                <value/>
+            </item>
+<item name="description">
+                <value>Cash/credit cards</value>
+            </item>
+<item name="rep_count">
+                <value>4</value>
+            </item>
+</value>
+        <value>
+            <item name="title">
+                <value/>
+            </item>
+<item name="description">
+                <value>Towel (from ship)</value>
+            </item>
+<item name="rep_count">
+                <value>5</value>
+            </item>
+</value>
+        <value>
+            <item name="title">
+                <value/>
+            </item>
+<item name="description">
+                <value>Change of clothes</value>
+            </item>
+<item name="rep_count">
+                <value>6</value>
+            </item>
+</value>
+    <value><item name="title"><value>What To Bring</value></item><item name="description"><value>Insect repellent</value></item><item name="rep_count"><value>7</value></item></value></item>
+    <item name="what_to_wear">
+        <value>
+            <item name="title">
+                <value>What To Wear</value>
+            </item>
+<item name="description">
+                <value>Walking shoes</value>
+            </item>
+<item name="rep_count">
+                <value>1</value>
+            </item>
+</value>
+        <value>
+            <item name="title">
+                <value/>
+            </item>
+<item name="description">
+                <value>Hat and sunglasses</value>
+            </item>
+<item name="rep_count">
+                <value>2</value>
+            </item>
+</value>
+        <value>
+            <item name="title">
+                <value/>
+            </item>
+<item name="description">
+                <value>Swimsuit under coverup or light clothing</value>
+            </item>
+<item name="rep_count">
+                <value>3</value>
+            </item>
+</value>
+        <value>
+            <item name="title">
+                <value/>
+            </item>
+<item name="description">
+                <value/>
+            </item>
+<item name="rep_count">
+                <value>4</value>
+            </item>
+</value>
+    </item>
+    <item name="overview">
+        <value>
+            <item name="title">
+                <value>Overview</value>
+            </item>
+<item name="description">
+                <value>Enjoy a sun splashed day at one of Barbados most beautiful public beaches. A scenic drive through the heart of Barbados brings you to Carlisle Beach. Feel the warm sun on your face as you step onto the powdery sand and escape the hustle and bustle of the real world. Experience the leisure life as you go for a refreshing swim, sunbathe, or relax with a tropical drink. BBA5</value>
+            </item>
+<item name="rep_count">
+                <value>1</value>
+            </item>
+</value>
+    </item>
+    <item name="full_description"/>
+    <item name="meta_data"/>
+    <item name="last_modified_user">
+        <value>NA\conxrxgtcbn</value>
+    </item>
+    <item name="last_modified_dtm">
+        <value>2016-02-01 11:21:50</value>
+    </item>
+    <item name="my_dcr_vpath">
+        <value>/default/main/asr/WORKAREA/asr_main/templatedata/product/shore_ex/data/en_US/bridgetown/dcr_product_bba5_barbados_beach_break_c_2016-02-01.xml</value>
+    </item>
+    <item name="my_tdt">
+        <value>product/shore_ex</value>
+    </item>
+    <item name="dcr_name">
+        <value>product_bba5_barbados_beach_break_c_2016-02-01</value>
+    </item>
+    <item name="locations_of_call_list"/>
+    <item name="product_description">
+        <value>BBA5 - Barbados Beach Break</value>
+    </item>
+    <item name="product_id">
+        <value>100000002299077303</value>
+    </item>
+    <item name="data_location">
+        <value>bridgetown</value>
+    </item>
+    <item name="cache_key_url">
+        <value>cacheName=ProductContent&amp;cacheKey=PRODUCT~~100000002299077303-asr_c-en_US,cacheName=ProductContent&amp;cacheKey=PRODUCT~~100000002299077303-ALL-ALL,cacheName=ProductContent&amp;cacheKey=PRODUCT~~100000002299077303-asr_c-en</value>
+    </item>
+    <item name="shared_applications">
+        <value/>
+    </item>
+</record>
