@@ -98,17 +98,7 @@
     <item name="product_long_description">
         <value>
             <item name="long_description">
-                <value>&lt;p&gt;Enjoy a sun splashed day at&amp;nbsp;one of Barbados most beautiful public&amp;nbsp;beaches. A scenic drive through the heart of Barbados brings you to Carlisle Beach. Feel the warm sun on your face as you step onto the powdery sand and escape the hustle and bustle of the real world. Experience the leisure life as you go for a refreshing swim, sunbathe, or relax with a tropical drink.
-                &lt;br /&gt;&lt;strong&gt;&lt;br /&gt;Highlights: &lt;br /&gt;&lt;/strong&gt;&amp;bull; Sit on a comfortable beach chair and lounge beneath the warm Caribbean sun. &lt;br /&gt;&amp;bull; Stroll along the sandy shores, dip your toes in the turquoise water, or nap under a swaying palm. &lt;br /&gt;
-                &lt;strong&gt;&lt;br /&gt;What to Bring: &lt;br /&gt;&lt;/strong&gt;
-                &amp;bull; SeaPass card and photo identification &lt;br /&gt;
-                &amp;bull; Camera &lt;br /&gt;&amp;bull; Sun protection &lt;br /&gt;
-                &amp;bull; Cash/credit cards&lt;br /&gt;
-                &amp;bull; Towel (from ship) &lt;br /&gt;
-                &amp;bull; Change of clothes&lt;br /&gt;
-                
-                 &amp;bull; Insect repellent&lt;br /&gt;
-                 &lt;strong&gt;&lt;br /&gt;What to Wear:&lt;br /&gt;&lt;/strong&gt;&amp;bull; Hat and sunglasses &lt;br /&gt;&amp;bull; Swimsuit under cover-up or light clothing&lt;/p&gt;</value>
+                <value>&lt;p&gt;Enjoy a sun splashed day at&amp;nbsp;one of Barbados most beautiful public&amp;nbsp;beaches. A scenic drive through the heart of Barbados brings you to Carlisle Beach. Feel the warm sun on your face as you step onto the powdery sand and escape the hustle and bustle of the real world. Experience the leisure life as you go for a refreshing swim, sunbathe, or relax with a tropical drink.&lt;br /&gt;&lt;strong&gt;&lt;br /&gt;Highlights: &lt;br /&gt;&lt;/strong&gt;&amp;bull; Sit on a comfortable beach chair and lounge beneath the warm Caribbean sun. &lt;br /&gt;&amp;bull; Stroll along the sandy shores, dip your toes in the turquoise water, or nap under a swaying palm. &lt;br /&gt;&lt;strong&gt;&lt;br /&gt;What to Bring: &lt;br /&gt;&lt;/strong&gt;&amp;bull; SeaPass card and photo identification &lt;br /&gt;&amp;bull; Camera &lt;br /&gt;&amp;bull; Sun protection &lt;br /&gt;&amp;bull; Cash/credit cards&lt;br /&gt;&amp;bull; Towel (from ship) &lt;br /&gt;&amp;bull; Change of clothes&lt;br /&gt;&lt;strong&gt;&lt;br /&gt;What to Wear:&lt;br /&gt;&lt;/strong&gt;&amp;bull; Hat and sunglasses &lt;br /&gt;&amp;bull; Swimsuit under cover-up or light clothing&lt;/p&gt;</value>
             </item>
 <item name="rep_count">
                 <value>1</value>
@@ -188,74 +178,7 @@
     </item>
     <item name="helpful_hints"/>
     <item name="notes"/>
-    <item name="what_to_bring">
-        <value>
-            <item name="title">
-                <value>What To Bring</value>
-            </item>
-<item name="description">
-                <value>SeaPass card and photo identification</value>
-            </item>
-<item name="rep_count">
-                <value>1</value>
-            </item>
-</value>
-        <value>
-            <item name="title">
-                <value/>
-            </item>
-<item name="description">
-                <value>Camera</value>
-            </item>
-<item name="rep_count">
-                <value>2</value>
-            </item>
-</value>
-        <value>
-            <item name="title">
-                <value/>
-            </item>
-<item name="description">
-                <value>Sun protection</value>
-            </item>
-<item name="rep_count">
-                <value>3</value>
-            </item>
-</value>
-        <value>
-            <item name="title">
-                <value/>
-            </item>
-<item name="description">
-                <value>Cash/credit cards</value>
-            </item>
-<item name="rep_count">
-                <value>4</value>
-            </item>
-</value>
-        <value>
-            <item name="title">
-                <value/>
-            </item>
-<item name="description">
-                <value>Towel (from ship)</value>
-            </item>
-<item name="rep_count">
-                <value>5</value>
-            </item>
-</value>
-        <value>
-            <item name="title">
-                <value/>
-            </item>
-<item name="description">
-                <value>Change of clothes</value>
-            </item>
-<item name="rep_count">
-                <value>6</value>
-            </item>
-</value>
-    <value><item name="title"><value>What To Bring</value></item><item name="description"><value>Insect repellent</value></item><item name="rep_count"><value>7</value></item></value></item>
+    
     <item name="what_to_wear">
         <value>
             <item name="title">
@@ -348,4 +271,5 @@
     <item name="shared_applications">
         <value/>
     </item>
+    
 </record>

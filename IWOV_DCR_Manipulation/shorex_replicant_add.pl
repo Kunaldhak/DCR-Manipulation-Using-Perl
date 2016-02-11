@@ -23,11 +23,20 @@ sub updateDCR_IWOV                      #For Updating Single Field
 	my $p = XML::Parser->new( NoLWP => 1);
 	my $xp = XML::XPath->new(parser => $p, filename => $targetFile);
 	my @node_list=$xp->find('/record/item[@name="what_to_bring"]/value')->get_nodelist;
+	my $results = $xp->findnodes_as_string('/record/item[@name="what_to_bring"]');
+	print $results."\n";
+	#my $results = $xp->find('/record/item[@name="what_to_bring"]');
 	my $size=@node_list;
-	print $size;
-	&create_node($targetFile,$size);
+	if (!defined $results || $results eq ""){
+		&create_node($targetFile);
+		
+	}
+        else {
+        	&update_node($targetFile,$size);
+        }
+	
 }
-sub create_node(){
+sub update_node(){
 	my ($dcr_path,$size) = @_;
 	chomp($dcr_path);
 	local $XML::DOM::IgnoreReadOnly = 1;
@@ -39,7 +48,6 @@ sub create_node(){
 	my $totalitem = $doc->getElementsByTagName('item');
 
 	my $len = $totalitem->getLength();
-	#print $doc;
 		
 	for (my $i=0;$i<$len;$i++) 
 		{
@@ -59,8 +67,10 @@ sub create_node(){
 			if (defined $nodechildval) {
 			my $long_description = $nodechildval->getNodeValue();
 			chomp($long_description);	
-			print "\n $long_description"	;
-			$long_description =~ s|<strong><br \/>What to Wear:| &bull; Insect repellent<br /><strong><br \/>What to Wear:|gi;
+			
+			$long_description =~ s|</p><p><strong>What to Wear:</strong>| <br />&bull; Insect repellent </p> <strong>What to Wear:</strong>|gi;
+			$long_description =~ s|<strong><br />What to Wear:| &bull; Insect repellent<br /><strong><br />What to Wear:|gi;
+			#print "\n $long_description";
 			$nodechildval->setNodeValue($long_description);
 			}
 		}
@@ -69,10 +79,10 @@ sub create_node(){
 			$what_to_bring =$node;
 			last;
 			}
-		}
+	}
 	
 	foreach my $items(@parent){
-        
+
          	my $node = $items->getAttributeNode('name');            #The return value of getAttributes XML::DOM::NamedNodeMap object
 			
  
@@ -107,9 +117,38 @@ sub create_node(){
 					
 					
 					}
+					
+
+	
 			}
-	#open (FILE, "> $dcr") || iwpt_output("could not open $!");
-	#print FILE $root->toString();
-	#close FILE;
-	#print "\nEND !!";
+	open (FILE, "> $dcr") || iwpt_output("could not open $!");
+	print FILE $root->toString();
+	close FILE;
+	print "\nEND !!";
+}
+sub create_node(){
+	my ($dcr_path) = @_;
+	chomp($dcr_path);
+	
+	local $XML::DOM::IgnoreReadOnly = 1;
+	my $parser = new XML::DOM::Parser;
+	my $doc = $parser->parsefile($dcr_path);
+	my $root = $doc->getDocumentElement();
+
+	my @parent = $doc->getElementsByTagName ("item");
+	
+	foreach my $items(@parent){
+	
+	my $item = $doc->createElement('item');
+	$item->setAttributeNode($doc->createAttribute("name"));
+	$item->setAttribute("name", "what_to_bring");
+	
+	$root->appendChild($item);
+		
+	open (FILE, "> $dcr") || iwpt_output("could not open $!");
+	print FILE $root->toString();
+	close FILE;
+	&update_node($dcr_path,0);
+	last;
+	}
 }
