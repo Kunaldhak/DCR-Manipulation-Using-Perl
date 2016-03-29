@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use File::Copy;
 use File::Find;
-use TeamSite::Config;
+#use TeamSite::Config;
 use XML::XPath;
 use XML::XPath::XMLParser;
 use XML::DOM;

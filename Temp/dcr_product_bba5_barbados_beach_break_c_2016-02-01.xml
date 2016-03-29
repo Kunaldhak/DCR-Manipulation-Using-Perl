@@ -1,21 +1,23 @@
-<record name="dcr_product_bba5_barbados_beach_break_c_2016-02-01.xml" type="content">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE record SYSTEM "dcr4.5.dtd">
+<record name="dcr_product_bbd3_tiami_five_star_catama_z_2016-01-09.xml" type="content">
     <item name="search_product_name">
-        <value/>
+        <value>five</value>
     </item>
     <item name="product_list">
-        <value>BBA5 - Barbados Beach Break</value>
+        <value>100000002445189172@@@BGI</value>
     </item>
     <item name="product_desc_display">
-        <value>BBA5 - Barbados Beach Break</value>
+        <value>BBD3 - Tiami  Five Star Catamaran &amp; Turtles</value>
     </item>
     <item name="language">
         <value>en_US</value>
     </item>
     <item name="brand_sel">
-        <value>c</value>
+        <value>z</value>
     </item>
     <item name="effective_date">
-        <value>2016-02-01</value>
+        <value>2016-01-09</value>
     </item>
     <item name="flash_indicator">
         <value>false</value>
@@ -30,13 +32,13 @@
         <value/>
     </item>
     <item name="hero_image">
-        <value/>
+        <value>/content/azamara/en_US/images/shore_ex/caribbean/BB_Bridgetown_Barbados/hero/BB34_4x4SafShipSnork.jpg</value>
     </item>
     <item name="hero_image_alt_text">
         <value/>
     </item>
     <item name="body_thumbnail">
-        <value/>
+        <value>/content/azamara/en_US/noimage/preview_unavailable.gif</value>
     </item>
     <item name="body_thumbnail_alt_text">
         <value/>
@@ -45,25 +47,25 @@
         <value/>
     </item>
     <item name="duration">
-        <value>3 hours 30 minutes</value>
+        <value/>
     </item>
     <item name="hours_of_operation">
         <value/>
     </item>
     <item name="image">
-        <value>/media/celebrity/shared_assets/images/shore-excursions/bridgetown/tiki-bar-at-accra-beach-BBA5-mosaic.jpg</value>
+        <value/>
     </item>
     <item name="image_alt_text">
-        <value>Barbados Beach Break</value>
+        <value/>
     </item>
     <item name="video">
         <value/>
     </item>
     <item name="banner_image">
-        <value>/media/celebrity/shared_assets/images/dest_shex/shorex_BBA5.jpg</value>
+        <value/>
     </item>
     <item name="banner_image_alt_text">
-        <value>Barbados Beach Break</value>
+        <value/>
     </item>
     <item name="logo">
         <value/>
@@ -75,19 +77,19 @@
         <value/>
     </item>
     <item name="text">
-        <value/>
+        <value>&lt;html /&gt;</value>
     </item>
     <item name="restrictions_contraindications">
-        <value/>
+        <value>&lt;html /&gt;</value>
     </item>
     <item name="display_name">
-        <value>Barbados Beach Break</value>
+        <value>Tiami Five Star Catamaran and Turtles</value>
     </item>
     <item name="pr_location">
         <value>Bridgetown, Barbados</value>
     </item>
     <item name="short_description">
-        <value>Enjoy a sun splashed day at one of Barbados most beautiful public beaches.</value>
+        <value/>
     </item>
     <item name="callDB">
         <value/>
@@ -98,140 +100,68 @@
     <item name="product_long_description">
         <value>
             <item name="long_description">
-                <value>&lt;p&gt;Enjoy a sun splashed day at&amp;nbsp;one of Barbados most beautiful public&amp;nbsp;beaches. A scenic drive through the heart of Barbados brings you to Carlisle Beach. Feel the warm sun on your face as you step onto the powdery sand and escape the hustle and bustle of the real world. Experience the leisure life as you go for a refreshing swim, sunbathe, or relax with a tropical drink.&lt;br /&gt;&lt;strong&gt;&lt;br /&gt;Highlights: &lt;br /&gt;&lt;/strong&gt;&amp;bull; Sit on a comfortable beach chair and lounge beneath the warm Caribbean sun. &lt;br /&gt;&amp;bull; Stroll along the sandy shores, dip your toes in the turquoise water, or nap under a swaying palm. &lt;br /&gt;&lt;strong&gt;&lt;br /&gt;What to Bring: &lt;br /&gt;&lt;/strong&gt;&amp;bull; SeaPass card and photo identification &lt;br /&gt;&amp;bull; Camera &lt;br /&gt;&amp;bull; Sun protection &lt;br /&gt;&amp;bull; Cash/credit cards&lt;br /&gt;&amp;bull; Towel (from ship) &lt;br /&gt;&amp;bull; Change of clothes&lt;br /&gt;&lt;strong&gt;&lt;br /&gt;What to Wear:&lt;br /&gt;&lt;/strong&gt;&amp;bull; Hat and sunglasses &lt;br /&gt;&amp;bull; Swimsuit under cover-up or light clothing&lt;/p&gt;</value>
+                <value>&lt;p&gt;From the moment you step onboard this sleek catamaran, you know you are in for something special. After being greeted by your friendly and outgoing crew, enjoy light snacks, juices, coffee or tea. Cruise along Barbados' scenic coastline to a sheltered bay where you can opt for a swim in the azure waters, relax on the beach, or join the professional instructors for an optional snorkel tour on beautiful coral reefs teeming with tropical fish. After snorkeling, feast on a lunch featuring local dishes along with cool refreshments from an open bar. At another stop, you will have the unique opportunity to view and swim with the fascinating sea turtles. Let your cares drift away as you sail, basking in the sunshine or relaxing in the shade of the comfortable cabin as you enjoy the beautiful scenery and tranquil ambiance.&lt;/p&gt;
+&lt;p&gt;Note: Snorkel masks and snorkel buoyancy jackets are provided. Fins are not allowed around the turtles for environmental reasons. Minimum age to participate in the snorkeling portion is 4 years as there is no equipment for children under 4 years. Please note that parents wishing to bring children under the age of 4 may do so, however parents will be responsible for the care of their children which includes providing a suitably-fitted flotation device for the child if they plan to go into the water. Tour order and content subject to sea/weather conditions. Turtle sightings cannot be guaranteed.Guests should consider their physical fitness level and medical history when determining whether this tour is appropriate. Guests with cardiac conditions, asthma, diabetes, epilepsy, other heart or respiratory conditions or any other medical condition should take particular caution when selecting a tour with snorkeling/swimming elements. Guests who have concerns should consult with their personal physician before engaging in any activity that may be strenuous for them.&lt;/p&gt;&lt;br/&gt;&lt;strong&gt;What to bring:&lt;/strong&gt;&lt;br /&gt; &amp;bull; Insect repellent&lt;br /&gt;</value>
             </item>
 <item name="rep_count">
                 <value>1</value>
             </item>
 </value>
     </item>
-    <item name="flash"/>
-    <item name="hero_banner">
+    <item name="flash">
         <value>
-            <item name="name">
+            <item name="flash_file_name">
                 <value/>
             </item>
-<item name="description">
-                <value/>
-            </item>
-<item name="image">
-                <value>/media/celebrity/shared_assets/images/shore-excursions/bridgetown/tiki-bar-at-accra-beach-BBA5-01.jpg</value>
-            </item>
-<item name="image_alt_text">
-                <value>Barbados Beach Break</value>
-            </item>
-<item name="video">
+<item name="flash_file">
                 <value/>
             </item>
 <item name="rep_count">
                 <value>1</value>
             </item>
 </value>
+    </item>
+    <item name="hero_banner"/>
+    <item name="gallery">
         <value>
-            <item name="name">
+            <item name="thumbnail">
                 <value/>
             </item>
-<item name="description">
+<item name="thumbnail_alt_text">
                 <value/>
             </item>
 <item name="image">
-                <value>/media/celebrity/shared_assets/images/shore-excursions/bridgetown/tiki-bar-at-accra-beach-BBA5-02.jpg</value>
+                <value/>
             </item>
 <item name="image_alt_text">
-                <value>Barbados Beach Break</value>
+                <value/>
             </item>
-<item name="video">
+<item name="headline_copy">
+                <value/>
+            </item>
+<item name="paragraph_copy">
                 <value/>
             </item>
 <item name="rep_count">
-                <value>2</value>
+                <value>1</value>
             </item>
 </value>
     </item>
-    <item name="gallery"/>
     <item name="restrictions"/>
     <item name="segment_link"/>
     <item name="disclaimer"/>
-    <item name="highlights">
-        <value>
-            <item name="title">
-                <value>Highlights</value>
-            </item>
-<item name="description">
-                <value>Sit on a comfortable beach chair and lounge beneath the warm Caribbean sun.</value>
-            </item>
-<item name="rep_count">
-                <value>1</value>
-            </item>
-</value>
-        <value>
-            <item name="title">
-                <value/>
-            </item>
-<item name="description">
-                <value>Stroll along the sandy shores, dip your toes in the turquoise water, or nap under a swaying palm.</value>
-            </item>
-<item name="rep_count">
-                <value>2</value>
-            </item>
-</value>
-    </item>
+    <item name="highlights"/>
     <item name="helpful_hints"/>
     <item name="notes"/>
-    
-    <item name="what_to_wear">
-        <value>
-            <item name="title">
-                <value>What To Wear</value>
-            </item>
-<item name="description">
-                <value>Walking shoes</value>
-            </item>
-<item name="rep_count">
-                <value>1</value>
-            </item>
-</value>
-        <value>
-            <item name="title">
-                <value/>
-            </item>
-<item name="description">
-                <value>Hat and sunglasses</value>
-            </item>
-<item name="rep_count">
-                <value>2</value>
-            </item>
-</value>
-        <value>
-            <item name="title">
-                <value/>
-            </item>
-<item name="description">
-                <value>Swimsuit under coverup or light clothing</value>
-            </item>
-<item name="rep_count">
-                <value>3</value>
-            </item>
-</value>
-        <value>
-            <item name="title">
-                <value/>
-            </item>
-<item name="description">
-                <value/>
-            </item>
-<item name="rep_count">
-                <value>4</value>
-            </item>
-</value>
-    </item>
+    <item name="what_to_bring"><value><item name="title"><value>What To Bring</value></item><item name="description"><value>Insect repellent</value></item><item name="rep_count"><value>1</value></item></value></item>
+    <item name="what_to_wear"/>
     <item name="overview">
         <value>
             <item name="title">
-                <value>Overview</value>
+                <value/>
             </item>
 <item name="description">
-                <value>Enjoy a sun splashed day at one of Barbados most beautiful public beaches. A scenic drive through the heart of Barbados brings you to Carlisle Beach. Feel the warm sun on your face as you step onto the powdery sand and escape the hustle and bustle of the real world. Experience the leisure life as you go for a refreshing swim, sunbathe, or relax with a tropical drink. BBA5</value>
+                <value>From the moment you step onboard this sleek catamaran, you know you are in for something special. After being greeted by your friendly and outgoing crew, enjoy light snacks, juices, coffee or tea. Cruise along Barbados' scenic coastline to a sheltered bay where you can opt for a swim in the azure waters, relax on the beach, or join the professional instructors for an optional snorkel tour on beautiful coral reefs teeming with tropical fish. After snorkeling, feast on a lunch featuring local dishes along with cool refreshments from an open bar. At another stop, you will have the unique opportunity to view and swim with the fascinating sea turtles. Let your cares drift away as you sail, basking in the sunshine or relaxing in the shade of the comfortable cabin as you enjoy the beautiful scenery and tranquil ambiance.  BBD3</value>
             </item>
 <item name="rep_count">
                 <value>1</value>
@@ -241,35 +171,34 @@
     <item name="full_description"/>
     <item name="meta_data"/>
     <item name="last_modified_user">
-        <value>NA\conxrxgtcbn</value>
+        <value>NA\119728</value>
     </item>
     <item name="last_modified_dtm">
-        <value>2016-02-01 11:21:50</value>
+        <value>2016-01-09 10:48:56</value>
     </item>
     <item name="my_dcr_vpath">
-        <value>/default/main/asr/WORKAREA/asr_main/templatedata/product/shore_ex/data/en_US/bridgetown/dcr_product_bba5_barbados_beach_break_c_2016-02-01.xml</value>
+        <value>/default/main/asr/WORKAREA/asr_main/templatedata/product/shore_ex/data/en_US/bridgetown/dcr_product_bbd3_tiami_five_star_catama_z_2016-01-09.xml</value>
     </item>
     <item name="my_tdt">
         <value>product/shore_ex</value>
     </item>
     <item name="dcr_name">
-        <value>product_bba5_barbados_beach_break_c_2016-02-01</value>
+        <value>product_bbd3_tiami_five_star_catama_z_2016-01-09</value>
     </item>
     <item name="locations_of_call_list"/>
     <item name="product_description">
-        <value>BBA5 - Barbados Beach Break</value>
+        <value>BBD3 - Tiami  Five Star Catamaran &amp; Turtles</value>
     </item>
     <item name="product_id">
-        <value>100000002299077303</value>
+        <value>100000002445189172</value>
     </item>
     <item name="data_location">
         <value>bridgetown</value>
     </item>
     <item name="cache_key_url">
-        <value>cacheName=ProductContent&amp;cacheKey=PRODUCT~~100000002299077303-asr_c-en_US,cacheName=ProductContent&amp;cacheKey=PRODUCT~~100000002299077303-ALL-ALL,cacheName=ProductContent&amp;cacheKey=PRODUCT~~100000002299077303-asr_c-en</value>
+        <value>cacheName=ProductContent&amp;cacheKey=PRODUCT~~100000002445189172-asr_z-en_US,cacheName=ProductContent&amp;cacheKey=PRODUCT~~100000002445189172-ALL-ALL,cacheName=ProductContent&amp;cacheKey=PRODUCT~~100000002445189172-asr_z-en</value>
     </item>
     <item name="shared_applications">
         <value/>
     </item>
-    
 </record>

@@ -17,13 +17,14 @@ use strict;
 use warnings;
 use XML::XPath;
 use XML::XPath::XMLParser;
+use XML::DOM;
 use File::Copy;
 use XML::Twig;
 use File::Find;
 use Data::Dumper;
 require LWP::UserAgent;
-use TeamSite::Config;
-use lib TeamSite::Config::iwgethome() . "/custom/common/core";
+#use TeamSite::Config;
+#use lib TeamSite::Config::iwgethome() . "/custom/common/core";
 
 my $hostserver    = TeamSite::Config::hostname();
 
@@ -129,9 +130,9 @@ my $xml_url = $LSCS_ENDPOINT."/path/".$dcr_path."?project=//".$LSCS_Project;
 # Date	Author		Description
 # ----	------		-----------
 #========================================================================
-sub check_error()
+sub check_error
 {
-	my $dcr_path=shift;
+	my ($dcr_path)=@_;
 	
 	my $parser = new XML::DOM::Parser;
 	if ( eval {$parser->parsefile ($dcr_path) } ) {

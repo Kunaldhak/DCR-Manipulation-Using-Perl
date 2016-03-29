@@ -5,6 +5,7 @@ use XML::XPath::XMLParser;
 use File::Copy;
 #use XML::Twig;
 use File::Find;
+#use TeamsiteUtil;
 use HTML::Entities ;
 use Data::Dumper;
 use XML::DOM;
@@ -14,8 +15,21 @@ require LWP::UserAgent;
 #use lib TeamSite::Config::iwgethome() . "/custom/common/core";
 #my $hostserver    = TeamSite::Config::hostname();
 
-my $dcr="C:\\Users\\kunald1\\git\\DCR-Manipulation-Using-Perl\\Temp\\dcr_product_bba5_barbados_beach_break_c_2016-02-01.xml";
+
+sub loadFiles(); 
+sub mySub(); 
+
+my @files = ();
+my $dir = shift || die "Argument missing: directory name\n";
+
+loadFiles(); #call
+
+
+map { 
+my $dcr = $_;
+print "dcr name  ; $dcr \n";
 &updateDCR_IWOV($dcr);
+} @files;
 
 sub updateDCR_IWOV                      #For Updating Single Field
 {
@@ -24,18 +38,28 @@ sub updateDCR_IWOV                      #For Updating Single Field
 	my $xp = XML::XPath->new(parser => $p, filename => $targetFile);
 	my @node_list=$xp->find('/record/item[@name="what_to_bring"]/value')->get_nodelist;
 	my $results = $xp->findnodes_as_string('/record/item[@name="what_to_bring"]');
-	print $results."\n";
+	my $results1 = $xp->findnodes_as_string('/record/item[@name="product_long_description"]');
+	#print $results1."\n";
 	#my $results = $xp->find('/record/item[@name="what_to_bring"]');
 	my $size=@node_list;
-	if (!defined $results || $results eq ""){
+	my @rep_list=TeamsiteUtil::getValue_IWOV($targetFile,"what_to_bring","description");
+	my $value="Insect repellant";
+	my $value1="Insect repellent";
+	if ( grep( /^$value$/, @rep_list) ||  grep( /^$value1$/, @rep_list)) {
+  	print "Already there ... Skipping";
+	}
+
+	elsif (!defined $results || $results eq ""){
 		&create_node($targetFile);
 		
 	}
         else {
         	&update_node($targetFile,$size);
         }
-	
-}
+		
+
+	}
+
 sub update_node(){
 	my ($dcr_path,$size) = @_;
 	chomp($dcr_path);
@@ -60,18 +84,33 @@ sub update_node(){
 		#print "$nodeattval , ";
 		
 
-		if ($nodeattval eq "long_description")
+				if ($nodeattval eq "long_description")
 		{
 			my $nodechild = $node->getElementsByTagName('value');
 			my $nodechildval = $nodechild->item(0)->getFirstChild;						
 			if (defined $nodechildval) {
 			my $long_description = $nodechildval->getNodeValue();
-			chomp($long_description);	
-			
-			$long_description =~ s|</p><p><strong>What to Wear:</strong>| <br />&bull; Insect repellent </p> <strong>What to Wear:</strong>|gi;
+			chomp($long_description);
+			my $search="What to bring";
+			if (index($long_description, "$search") != -1 || index($long_description, "What to Bring") != -1 || index($long_description, "What To Bring") != -1) {
+    		print "Long description contains $search\n";
+    		$long_description =~ s|</p><p><strong>What to Wear:</strong>| <br />&bull; Insect repellent </p> <p><strong>What to Wear:</strong>|gi;
 			$long_description =~ s|<strong><br />What to Wear:| &bull; Insect repellent<br /><strong><br />What to Wear:|gi;
+			$long_description =~ s|<br /><br /><strong>What to Wear:| <br />&bull; Insect repellent<br /><strong><br />What to Wear:|gi;
+			$long_description =~ s|</p>\n<p><strong>What to Wear:| <br />&bull; Insect repellent </p><p><strong><br />What to Wear:|gi;
+			$long_description =~ s|Insect rapellent| Insect repellent |gi;
+			$long_description =~ s|Insect Rapellent| Insect repellent |gi;
+			$long_description =~ s|Insect Rapellant| Insect repellent |gi;
+			$long_description =~ s|Insect rapellant| Insect repellent |gi;
 			#print "\n $long_description";
 			$nodechildval->setNodeValue($long_description);
+			}	
+			else {
+				print "what to bring not found in long description \n";
+				$long_description=$long_description."<p><strong>What to bring:</strong><br /> &bull; Insect repellent</p>";
+				$nodechildval->setNodeValue($long_description);
+			}
+
 			}
 		}
 		if ($nodeattval eq "what_to_bring")
@@ -87,12 +126,14 @@ sub update_node(){
 			
  
          		if ($node->getValue eq 'what_to_bring'){
-         			print "\n Found overview ..\n";
+         			print "\n Found  what_to_bring..\n";
 					my $value_elem = $doc->createElement('value');
 					my $elem_title = $doc->createElement('item');
 					$elem_title->setAttribute('name','title');
 					my $value_elem_title = $doc->createElement('value');
+					if($size ==0){
 					$value_elem_title->appendChild($doc->createTextNode("What To Bring"));
+					}
 					$elem_title->appendChild($value_elem_title);
 					
 					my $elem_desc = $doc->createElement('item');
@@ -121,8 +162,8 @@ sub update_node(){
 
 	
 			}
-	open (FILE, "> $dcr") || iwpt_output("could not open $!");
-	print FILE $root->toString();
+	open (FILE, "> $dcr_path") || iwpt_output("could not open $!");
+	print FILE $doc->toString();
 	close FILE;
 	print "\nEND !!";
 }
@@ -145,10 +186,19 @@ sub create_node(){
 	
 	$root->appendChild($item);
 		
-	open (FILE, "> $dcr") || iwpt_output("could not open $!");
-	print FILE $root->toString();
+	open (FILE, "> $dcr_path") || iwpt_output("could not open $!");
+	print FILE $doc->toString();
 	close FILE;
 	&update_node($dcr_path,0);
 	last;
 	}
+}
+sub loadFiles()
+{
+  print "$dir";
+  find(\&mySub,"$dir"); #custom subroutine find, parse $dir
+}
+sub mySub()
+{
+push @files, $File::Find::name if(/\.xml$/i);                 # modify the regex as per your needs or pass it as another arg
 }

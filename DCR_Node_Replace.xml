@@ -1,129 +1,204 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE record SYSTEM "dcr4.5.dtd">
-<record name="dcr_deck_OA_11_1596.xml" type="content">
-    
-    <item name="intro_copy">
-        <value>&lt;a href="/findacruise/ports/printAccessibilityInformation.do?pagename=accessible_features_OA" onclick="jsBasic_popup_resizable('/findacruise/ports/printAccessibilityInformation.do?pagename=accessible_features_OA', 850, 600, true); return false"&gt;&lt;u&gt;View Accessible Public Areas&lt;/u&gt;&lt;/a&gt;&lt;br /&gt;&lt;a href="/findacruise/ports/accessibilityFeatures.do?pagename=accessible_staterooms_popup_OA" onclick="jsBasic_popup_resizable('/findacruise/ports/accessibilityFeatures.do?pagename=accessible_staterooms_popup_OA', 850, 600, true); return false"&gt;&lt;u&gt;View Accessible Stateroom&lt;/u&gt;&lt;/a&gt;</value>
+<record name="dcr_product_bbd3_tiami_five_star_catama_z_2016-01-09.xml" type="content">
+    <item name="search_product_name">
+        <value>five</value>
     </item>
-    <item name="image">
-        <value>/content/shared_assets/images/fleet/decks/main/oa/2013-sep/oa_deck11_v2013_sep.gif</value>
+    <item name="product_list">
+        <value>100000002445189172@@@BGI</value>
     </item>
-    <item name="image_alt_text">
-        <value>Deck Eleven</value>
+    <item name="product_desc_display">
+        <value>BBD3 - Tiami  Five Star Catamaran &amp; Turtles</value>
     </item>
-    <item name="cutaway_image">
-        <value>/content/shared_assets/images/fleet/decks/cutaway/oa/shp_oa_deck11cutaway_dpl_on.gif</value>
+    <item name="language">
+        <value>en_US</value>
     </item>
-    <item name="cutaway_alt_text">
-        <value>Deck Eleven</value>
+    <item name="brand_sel">
+        <value>z</value>
     </item>
-    <item name="deck_pdf">
-        <value>/content/shared_assets/pdf/decks/OA/2013-sep/oa_deck11_v2013_sep.pdf</value>
+    <item name="effective_date">
+        <value>2016-01-09</value>
     </item>
-    <item name="torpedo">
-        <value>
-            <item name="deck_fore_port">
-                <value>/content/shared_assets/images/fleet/decks/sections/oa/2013-sep/oa_deck11_v2013_sep_top_l.gif</value>
-            </item>
-<item name="deck_fore_starboard">
-                <value>/content/shared_assets/images/fleet/decks/sections/oa/2013-sep/oa_deck11_v2013_sep_top_r.gif</value>
-            </item>
-<item name="deck_midsection_port">
-                <value>/content/shared_assets/images/fleet/decks/sections/oa/2013-sep/oa_deck11_v2013_sep_mid_l.gif</value>
-            </item>
-<item name="deck_midsection_starboard">
-                <value>/content/shared_assets/images/fleet/decks/sections/oa/2013-sep/oa_deck11_v2013_sep_mid_r.gif</value>
-            </item>
-<item name="deck_aft_port">
-                <value>/content/shared_assets/images/fleet/decks/sections/oa/2013-sep/oa_deck11_v2013_sep_bot_l.gif</value>
-            </item>
-<item name="deck_aft_starboard">
-                <value>/content/shared_assets/images/fleet/decks/sections/oa/2013-sep/oa_deck11_v2013_sep_bot_r.gif</value>
-            </item>
-</value>
+    <item name="flash_indicator">
+        <value>false</value>
     </item>
-    <item name="public_spaces">
-        <value>
-            <item name="subhead_copy">
-                <value>Library</value>
-            </item>
-<item name="paragraph_copy">
-                <value>Our onboard library features comfortable reading chairs as well as an impressive selection of books and guidebooks.</value>
-            </item>
-<item name="rep_count">
-                <value>1</value>
-            </item>
-</value>
-        <value>
-            <item name="subhead_copy">
-                <value>Concierge Club</value>
-            </item>
-<item name="paragraph_copy">
-                <value>Guests staying in Grand Suite-level rooms and higher, Diamond Plus and Pinnacle Club Crown &amp; Anchor&lt;sup&gt;&lt;font size="-3"&gt;®&lt;/font&gt;&lt;/sup&gt; Society members enjoy access to this lounge serving complimentary continental breakfast and evening drinks.</value>
-            </item>
-<item name="rep_count">
-                <value>2</value>
-            </item>
-</value>
-        <value>
-            <item name="subhead_copy">
-                <value>GETTING AROUND ONBOARD</value>
-            </item>
-<item name="paragraph_copy">
-                <value>Our Way Finding system uses four simple colors to help you locate every destination and stateroom onboard Oasis of the Seas. Each color represents a quadrant of the ship - front port, front starboard, back port or back starboard - so you'll always know where you are and where you want to go.</value>
-            </item>
-<item name="rep_count">
-                <value>3</value>
-            </item>
-</value>
+    <item name="gallery_indicator">
+        <value>false</value>
     </item>
-    <item name="friendly_text">
+    <item name="iq_hero_image">
         <value/>
     </item>
-    <item name="breadcrumb">
+    <item name="iq_hero_image_alt_text">
+        <value/>
+    </item>
+    <item name="hero_image">
+        <value>/content/azamara/en_US/images/shore_ex/caribbean/BB_Bridgetown_Barbados/hero/BB34_4x4SafShipSnork.jpg</value>
+    </item>
+    <item name="hero_image_alt_text">
+        <value/>
+    </item>
+    <item name="body_thumbnail">
+        <value>/content/azamara/en_US/noimage/preview_unavailable.gif</value>
+    </item>
+    <item name="body_thumbnail_alt_text">
+        <value/>
+    </item>
+    <item name="title_copy">
+        <value/>
+    </item>
+    <item name="duration">
+        <value/>
+    </item>
+    <item name="hours_of_operation">
+        <value/>
+    </item>
+    <item name="image">
+        <value/>
+    </item>
+    <item name="image_alt_text">
+        <value/>
+    </item>
+    <item name="video">
+        <value/>
+    </item>
+    <item name="banner_image">
+        <value/>
+    </item>
+    <item name="banner_image_alt_text">
+        <value/>
+    </item>
+    <item name="logo">
+        <value/>
+    </item>
+    <item name="logo_alt_text">
+        <value/>
+    </item>
+    <item name="name">
+        <value/>
+    </item>
+    <item name="text">
+        <value>&lt;html /&gt;</value>
+    </item>
+    <item name="restrictions_contraindications">
+        <value>&lt;html /&gt;</value>
+    </item>
+    <item name="display_name">
+        <value>Tiami Five Star Catamaran and Turtles</value>
+    </item>
+    <item name="pr_location">
+        <value>Bridgetown, Barbados</value>
+    </item>
+    <item name="short_description">
+        <value/>
+    </item>
+    <item name="callDB">
+        <value/>
+    </item>
+    <item name="restriction_dropdown"/>
+    <item name="restriction_id_dropdown"/>
+    <item name="booking_restrictions"/>
+    <item name="product_long_description">
         <value>
-            <item name="breadcrumb_text">
-                <value>Plan a Cruise</value>
-            </item>
-<item name="breadcrumb_url">
-                <value>/findacruise/home.do</value>
+            <item name="long_description">
+                <value>&lt;p&gt;From the moment you step onboard this sleek catamaran, you know you are in for something special. After being greeted by your friendly and outgoing crew, enjoy light snacks, juices, coffee or tea. Cruise along Barbados' scenic coastline to a sheltered bay where you can opt for a swim in the azure waters, relax on the beach, or join the professional instructors for an optional snorkel tour on beautiful coral reefs teeming with tropical fish. After snorkeling, feast on a lunch featuring local dishes along with cool refreshments from an open bar. At another stop, you will have the unique opportunity to view and swim with the fascinating sea turtles. Let your cares drift away as you sail, basking in the sunshine or relaxing in the shade of the comfortable cabin as you enjoy the beautiful scenery and tranquil ambiance.&lt;/p&gt;
+&lt;p&gt;Note: Snorkel masks and snorkel buoyancy jackets are provided. Fins are not allowed around the turtles for environmental reasons. Minimum age to participate in the snorkeling portion is 4 years as there is no equipment for children under 4 years. Please note that parents wishing to bring children under the age of 4 may do so, however parents will be responsible for the care of their children which includes providing a suitably-fitted flotation device for the child if they plan to go into the water. Tour order and content subject to sea/weather conditions. Turtle sightings cannot be guaranteed.Guests should consider their physical fitness level and medical history when determining whether this tour is appropriate. Guests with cardiac conditions, asthma, diabetes, epilepsy, other heart or respiratory conditions or any other medical condition should take particular caution when selecting a tour with snorkeling/swimming elements. Guests who have concerns should consult with their personal physician before engaging in any activity that may be strenuous for them.&lt;/p&gt;&lt;p&gt;&lt;strong&gt;What to bring:&lt;/strong&gt;&lt;br /&gt; &amp;bull; Insect repellent&lt;/p&gt;</value>
             </item>
 <item name="rep_count">
                 <value>1</value>
             </item>
 </value>
+    </item>
+    <item name="flash">
         <value>
-            <item name="breadcrumb_text">
-                <value>Ships</value>
+            <item name="flash_file_name">
+                <value/>
             </item>
-<item name="breadcrumb_url">
-                <value>/findacruise/ships/home.do</value>
-            </item>
-<item name="rep_count">
-                <value>2</value>
-            </item>
-</value>
-        <value>
-            <item name="breadcrumb_text">
-                <value>Oasis of the Seas</value>
-            </item>
-<item name="breadcrumb_url">
-                <value>/findacruise/ships/class/ship/home.do?shipCode=OA</value>
-            </item>
-<item name="rep_count">
-                <value>3</value>
-            </item>
-</value>
-        <value>
-            <item name="breadcrumb_text">
-                <value>Deck Plans</value>
-            </item>
-<item name="breadcrumb_url">
+<item name="flash_file">
                 <value/>
             </item>
 <item name="rep_count">
-                <value>4</value>
+                <value>1</value>
             </item>
-        </value>    
-        </item>    
+</value>
+    </item>
+    <item name="hero_banner"/>
+    <item name="gallery">
+        <value>
+            <item name="thumbnail">
+                <value/>
+            </item>
+<item name="thumbnail_alt_text">
+                <value/>
+            </item>
+<item name="image">
+                <value/>
+            </item>
+<item name="image_alt_text">
+                <value/>
+            </item>
+<item name="headline_copy">
+                <value/>
+            </item>
+<item name="paragraph_copy">
+                <value/>
+            </item>
+<item name="rep_count">
+                <value>1</value>
+            </item>
+</value>
+    </item>
+    <item name="restrictions"/>
+    <item name="segment_link"/>
+    <item name="disclaimer"/>
+    <item name="highlights"/>
+    <item name="helpful_hints"/>
+    <item name="notes"/>
+    <item name="what_to_bring"><value><item name="title"><value>What To Bring</value></item><item name="description"><value>Insect repellent</value></item><item name="rep_count"><value>1</value></item></value></item>
+    <item name="what_to_wear"/>
+    <item name="overview">
+        <value>
+            <item name="title">
+                <value/>
+            </item>
+<item name="description">
+                <value>From the moment you step onboard this sleek catamaran, you know you are in for something special. After being greeted by your friendly and outgoing crew, enjoy light snacks, juices, coffee or tea. Cruise along Barbados' scenic coastline to a sheltered bay where you can opt for a swim in the azure waters, relax on the beach, or join the professional instructors for an optional snorkel tour on beautiful coral reefs teeming with tropical fish. After snorkeling, feast on a lunch featuring local dishes along with cool refreshments from an open bar. At another stop, you will have the unique opportunity to view and swim with the fascinating sea turtles. Let your cares drift away as you sail, basking in the sunshine or relaxing in the shade of the comfortable cabin as you enjoy the beautiful scenery and tranquil ambiance.  BBD3</value>
+            </item>
+<item name="rep_count">
+                <value>1</value>
+            </item>
+</value>
+    </item>
+    <item name="full_description"/>
+    <item name="meta_data"/>
+    <item name="last_modified_user">
+        <value>NA\119728</value>
+    </item>
+    <item name="last_modified_dtm">
+        <value>2016-01-09 10:48:56</value>
+    </item>
+    <item name="my_dcr_vpath">
+        <value>/default/main/asr/WORKAREA/asr_main/templatedata/product/shore_ex/data/en_US/bridgetown/dcr_product_bbd3_tiami_five_star_catama_z_2016-01-09.xml</value>
+    </item>
+    <item name="my_tdt">
+        <value>product/shore_ex</value>
+    </item>
+    <item name="dcr_name">
+        <value>product_bbd3_tiami_five_star_catama_z_2016-01-09</value>
+    </item>
+    <item name="locations_of_call_list"/>
+    <item name="product_description">
+        <value>BBD3 - Tiami  Five Star Catamaran &amp; Turtles</value>
+    </item>
+    <item name="product_id">
+        <value>100000002445189172</value>
+    </item>
+    <item name="data_location">
+        <value>bridgetown</value>
+    </item>
+    <item name="cache_key_url">
+        <value>cacheName=ProductContent&amp;cacheKey=PRODUCT~~100000002445189172-asr_z-en_US,cacheName=ProductContent&amp;cacheKey=PRODUCT~~100000002445189172-ALL-ALL,cacheName=ProductContent&amp;cacheKey=PRODUCT~~100000002445189172-asr_z-en</value>
+    </item>
+    <item name="shared_applications">
+        <value/>
+    </item>
 </record>
